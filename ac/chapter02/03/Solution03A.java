@@ -9,7 +9,8 @@ import java.util.Set;
 public class Solution03A {
 
     /**
-     * 找出数组中重复的数字，直接输出(每个重复的数字仅输出一遍)
+     * 找出数组中所有重复的数字，直接输出(每个重复的数字仅输出一遍)
+     * 没有重复的数字则输出 None
      *
      * @param args
      */
