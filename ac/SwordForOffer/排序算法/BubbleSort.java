@@ -9,7 +9,7 @@
  *
  * @date 2018/02/25
  */
-public class Bubble {
+public class BubbleSort {
 
     public static void main(String[] args) {
         int[] arr = {5, 1, 4, 2, 8};
