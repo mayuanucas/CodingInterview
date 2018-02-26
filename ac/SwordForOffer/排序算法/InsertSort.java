@@ -22,6 +22,10 @@ public class InsertSort {
     }
 
     public static void insertSort(int[] array) {
+        if (null == array || 1 >= array.length){
+            return;
+        }
+
         for (int i = 1; i < array.length; i++) {
             for (int j = i - 1; j >= 0 && array[j] > array[j + 1]; j--) {
                 int temp = array[j];
