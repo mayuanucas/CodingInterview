@@ -1,15 +1,19 @@
-## 算法题目集锦
+## 技术面试需要掌握的基础知识整理
 
 >此项目建议搭配[Code tree for GitHub](https://github.com/buunguyen/octotree)效果更佳。
 
-### [51nod](http://www.51nod.com/)
+### 算法
 
-51nod 解题记录:  [51nod解题](ac/51nod)
+#### [51nod](http://www.51nod.com/)
 
-### 剑指offer(第二版)
+51nod 解题记录:  [51nod解题](algorithm/51nod)
 
-剑指offer(第二版) 解题记录: [剑指offer解题](ac/SwordForOffer)
+#### 剑指offer(第二版)
 
-### LeetCode
+剑指offer(第二版) 解题记录: [剑指offer解题](algorithm/SwordForOffer)
 
-LeetCode 解题记录: [LeetCode解题](ac/LeetCode)
+#### LeetCode
+
+LeetCode 解题记录: [LeetCode解题](algorithm/LeetCode)
+
+### 
