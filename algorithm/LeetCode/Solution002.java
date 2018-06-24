@@ -28,6 +28,7 @@ public class Solution002 {
             }
         }
 
+        // 最后一步仍然需要进位
         if (0 < carry) {
             current.next = new ListNode(carry);
         }
