@@ -1,4 +1,4 @@
-package com.concurrent.chapter01;
+package com.concurrent.cpt01;
 
 import java.util.concurrent.TimeUnit;
 
