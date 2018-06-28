@@ -8,6 +8,10 @@ package com.concurrent.cpt02;
 public class ThreadConstruction {
 
     public static void main(String[] args) {
+        System.out.println(args.length);
+        System.out.println(args);
+
+
         Thread t1 = new Thread("t1");
 
         ThreadGroup group = new ThreadGroup("TestGroup");
