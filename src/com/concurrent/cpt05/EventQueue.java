@@ -28,7 +28,7 @@ public class EventQueue {
 
     public void offer(Event event) {
         synchronized (eventQueue) {
-            if (eventQueue.size() >= max) {
+            while (eventQueue.size() >= max) {
                 try {
                     print(" the queue is full.");
                     eventQueue.wait();
@@ -38,13 +38,13 @@ public class EventQueue {
             }
             print(" the new event is submitted.");
             eventQueue.addLast(event);
-            eventQueue.notify();
+            eventQueue.notifyAll();
         }
     }
 
     public Event take() {
         synchronized (eventQueue) {
-            if (eventQueue.isEmpty()) {
+            while (eventQueue.isEmpty()) {
                 try {
                     print(" the queue is empty.");
                     eventQueue.wait();
@@ -54,7 +54,7 @@ public class EventQueue {
             }
 
             Event event = eventQueue.removeFirst();
-            this.eventQueue.notify();
+            this.eventQueue.notifyAll();
             print(" the event " + event + " is handled.");
             return event;
         }
