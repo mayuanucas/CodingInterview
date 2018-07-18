@@ -11,9 +11,6 @@ import java.util.*;
  */
 public class ArrayList<E> extends AbstractList<E>
         implements List<E>, RandomAccess, Cloneable, java.io.Serializable {
-    public static void main() {
-        List list = new java.util.ArrayList();
-    }
 
     private static final long serialVersionUID = 3469756327917257639L;
 
