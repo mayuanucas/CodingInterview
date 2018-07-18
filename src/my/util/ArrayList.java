@@ -1,5 +1,7 @@
 package my.util;
 
+import sun.misc.SharedSecrets;
+
 import java.util.*;
 
 /**
@@ -42,7 +44,7 @@ public class ArrayList<E> extends AbstractList<E>
     public ArrayList(Collection<? extends E> c) {
         this.elementData = c.toArray();
         if (0 != (size = elementData.length)) {
-            // c.toArray 操作失败
+            // 如果 size 为 0 ,即传入的是空集合
             if (elementData.getClass() != Object[].class) {
                 this.elementData = Arrays.copyOf(elementData, size, Object[].class);
             }
@@ -153,6 +155,12 @@ public class ArrayList<E> extends AbstractList<E>
     }
 
     @Override
+    public E get(int index) {
+        rangeCheck(index);
+        return elementData(index);
+    }
+
+    @Override
     public void add(int index, E element) {
         rangeCheckForAdd(index);
         ensureCapacityInternal(size + 1);
@@ -162,9 +170,136 @@ public class ArrayList<E> extends AbstractList<E>
         size++;
     }
 
+    private void rangeCheck(int index) {
+        if (index >= size) {
+            throw new IndexOutOfBoundsException("序号越界" + index);
+        }
+    }
+
     private void rangeCheckForAdd(int index) {
         if (index > size || index < 0) {
             throw new IndexOutOfBoundsException("序号越界" + index);
+        }
+    }
+
+    E elementData(int index) {
+        return (E) elementData[index];
+    }
+
+    @Override
+    public E remove(int index) {
+        rangeCheckForAdd(index);
+
+        modCount++;
+        E oldValue = elementData(index);
+
+        int numMoved = size - index - 1;
+        if (0 < numMoved) {
+            System.arraycopy(elementData, index + 1, elementData, index, numMoved);
+        }
+        elementData[--size] = null;
+        return oldValue;
+    }
+
+    private void fastRemove(int index) {
+        modCount++;
+        int numMoved = size - index - 1;
+        if (0 < numMoved) {
+            System.arraycopy(elementData, index + 1, elementData, index, numMoved);
+        }
+        elementData[--size] = null;
+    }
+
+    @Override
+    public boolean remove(Object o) {
+        if (null == o) {
+            for (int index = 0; index < size; index++) {
+                if (null == elementData[index]) {
+                    fastRemove(index);
+                    return true;
+                }
+            }
+        } else {
+            for (int index = 0; index < size; index++) {
+                if (o.equals(elementData[index])) {
+                    fastRemove(index);
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    @Override
+    public void clear() {
+        modCount++;
+        for (int i = 0; i < size; i++) {
+            elementData[i] = null;
+        }
+
+        size = 0;
+    }
+
+    @Override
+    public boolean addAll(Collection<? extends E> c) {
+        Object[] a = c.toArray();
+        int numNew = a.length;
+        ensureCapacityInternal(size + numNew);
+        System.arraycopy(a, 0, elementData, size, numNew);
+        size += numNew;
+        return 0 != numNew;
+    }
+
+    @Override
+    public boolean addAll(int index, Collection<? extends E> c) {
+        rangeCheckForAdd(index);
+
+        Object[] a = c.toArray();
+        int numNew = a.length;
+        ensureCapacityInternal(size + numNew);
+
+        int numRemoved = size - index;
+        if (0 < numRemoved) {
+            System.arraycopy(elementData, index, elementData, size, numRemoved);
+        }
+        System.arraycopy(a, 0, elementData, index, numNew);
+        size += numNew;
+        return 0 != numNew;
+    }
+
+    private void writeObject(java.io.ObjectOutputStream s) throws java.io.IOException {
+        int expectedModCount = modCount;
+        s.defaultWriteObject();
+
+        s.writeInt(size);
+
+        for (int i = 0; i < size; i++) {
+            s.writeObject(elementData[i]);
+        }
+
+        if (expectedModCount != modCount) {
+            throw new ConcurrentModificationException();
+        }
+    }
+
+    private void readObject(java.io.ObjectInputStream s) throws java.io.IOException, ClassNotFoundException {
+        elementData = EMPTY_ELEMENTDATA;
+
+        s.defaultReadObject();
+
+        s.readInt();
+
+        if (0 < size) {
+            // be like clone(), allocate array based upon size not capacity
+            int capacity = calculateCapacity(elementData, size);
+            SharedSecrets.getJavaOISAccess().checkArray(s, Object[].class, capacity);
+            ensureCapacityInternal(size);
+
+            Object[] a = elementData;
+            // Read in all elements in the proper order.
+            for (int i = 0; i < size; i++) {
+                a[i] = s.readObject();
+            }
         }
     }
 
