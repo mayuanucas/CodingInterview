@@ -1,4 +1,4 @@
-package design.pattern;
+package my.learn;
 
 /**
  * @author: mayuan
