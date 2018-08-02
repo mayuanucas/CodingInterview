@@ -1,19 +1,17 @@
-## 技术面试需要掌握的基础知识整理
+# CodingInterview
 
 >此项目建议搭配[Code tree for GitHub](https://github.com/buunguyen/octotree)效果更佳。
 
-### 算法
+## 算法
 
-#### [51nod](http://www.51nod.com/)
+### LeetCode
 
-51nod 解题记录:  [51nod解题](algorithm/51nod)
+LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 
-#### 剑指offer(第二版)
+### [51nod](http://www.51nod.com/)
 
-剑指offer(第二版) 解题记录: [剑指offer解题](algorithm/SwordForOffer)
+51nod 解题记录:  [51nod解题](src/main/resources/nod51)
 
-#### LeetCode
+### 剑指offer(第二版)
 
-LeetCode 解题记录: [LeetCode解题](algorithm/LeetCode)
-
-### 
+剑指offer(第二版) 解题记录: [剑指offer解题](src/main/resources/SwordForOffer)
