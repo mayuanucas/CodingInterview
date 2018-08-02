@@ -16,6 +16,8 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 | 22   | [括号生成](src/main/java/algorithm/leetcode/Solution022.java) |  中等  |
 | 39   | [组合总和](src/main/java/algorithm/leetcode/Solution039.java) |  中等  |
 | 40   | [组合总和2](src/main/java/algorithm/leetcode/Solution040.java) |  中等  |
+| 46   | [全排列](src/main/java/algorithm/leetcode/Solution046.java) |  中等  |
+| 47   | [全排列2](src/main/java/algorithm/leetcode/Solution047.java) |  中等  |
 
 
 ### [51nod](http://www.51nod.com/)
