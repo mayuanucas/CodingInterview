@@ -1,5 +1,6 @@
 package algorithm.leetcode;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
@@ -12,11 +13,52 @@ import java.util.List;
 public class Solution046 {
     public static void main(String[] args) {
         Solution046 sol = new Solution046();
-        System.out.println(sol.permute(new int[]{1, 2, 3}));
+//        System.out.println(sol.permute(new int[]{1, 2, 3}));
+        System.out.println(sol.permute2(new int[]{1, 2, 3}));
+    }
+
+
+    public List<List<Integer>> permute2(int[] nums) {
+        List<List<Integer>> answer = new LinkedList<>();
+        List<Integer> oneAnswer = new ArrayList<>(nums.length);
+        for (int item : nums) {
+            oneAnswer.add(item);
+        }
+
+        dfs(answer, oneAnswer, 0);
+        return answer;
+    }
+
+    public void dfs(List<List<Integer>> answer, List<Integer> oneAnswer, int index) {
+        if (index == oneAnswer.size()) {
+            answer.add(oneAnswer);
+        }
+
+        // 核心算法
+        for (int i = index; i < oneAnswer.size(); i++) {
+            swap(oneAnswer, index, i);
+            // 注意oneAnswer递归之后会发生变化，故这里产生相应副本进行操作
+            dfs(answer, new ArrayList<>(oneAnswer), index + 1);
+        }
+    }
+
+
+    /**
+     * 把 list 中 a位置和 b 位置元素互换
+     *
+     * @param list
+     * @param a
+     * @param b
+     */
+    public void swap(List<Integer> list, int a, int b) {
+        int temp = list.get(a);
+        list.set(a, list.get(b));
+        list.set(b, temp);
     }
 
     /**
      * 全排列
+     *
      * @param nums
      * @return
      */
