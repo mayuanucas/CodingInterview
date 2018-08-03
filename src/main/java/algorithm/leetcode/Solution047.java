@@ -16,28 +16,45 @@ public class Solution047 {
         List<List<Integer>> answer = new LinkedList<>();
         List<Integer> oneAnswer = new ArrayList<>(nums.length);
 
+        // 有相同值时注意先排序将相同值放在一起
         Arrays.sort(nums);
-        dfs(nums, answer, oneAnswer, 0, new boolean[nums.length]);
+
+        for (int item : nums) {
+            oneAnswer.add(item);
+        }
+
+        dfs(answer, oneAnswer, 0);
         return answer;
     }
 
-    public void dfs(int[] nums, List<List<Integer>> answer, List<Integer> oneAnswer, int index, boolean[] taked) {
-        if (index == nums.length) {
-            answer.add(new ArrayList<>(oneAnswer));
-            return;
+    public void dfs(List<List<Integer>> answer, List<Integer> oneAnswer, int index) {
+        if (index == oneAnswer.size()) {
+            answer.add(oneAnswer);
         }
 
-        for (int i = 0; i < nums.length; i++) {
-            if (!taked[i]) {
-                oneAnswer.add(nums[i]);
-                taked[i] = true;
-                dfs(nums, answer, oneAnswer, index + 1, taked);
-                taked[i] = false;
-                oneAnswer.remove(index);
-                while (i < nums.length - 1 && nums[i] == nums[i + 1]) {
-                    i++;
-                }
+        // 核心算法
+        for (int i = index; i < oneAnswer.size(); i++) {
+            // 与前一题的唯一区别就是避免与重复值进行交换
+            if (i != index && oneAnswer.get(index).equals(oneAnswer.get(i))) {
+                continue;
             }
+            swap(oneAnswer, index, i);
+            // 注意oneAnswer递归之后会发生变化，故这里产生相应副本进行操作
+            dfs(answer, new ArrayList<>(oneAnswer), index + 1);
         }
+    }
+
+
+    /**
+     * 把 list 中 a位置和 b 位置元素互换
+     *
+     * @param list
+     * @param a
+     * @param b
+     */
+    public void swap(List<Integer> list, int a, int b) {
+        int temp = list.get(a);
+        list.set(a, list.get(b));
+        list.set(b, temp);
     }
 }
