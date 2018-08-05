@@ -1,4 +1,4 @@
-package bj;
+package bishi;
 
 import java.util.Scanner;
 
