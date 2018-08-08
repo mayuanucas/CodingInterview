@@ -20,6 +20,7 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 | 047   | [全排列2](src/main/java/algorithm/leetcode/Solution047.java) |  中等  |
 | 060   | [第k个排列](src/main/java/algorithm/leetcode/Solution060.java) |  中等  |
 | 077   | [组合](src/main/java/algorithm/leetcode/Solution077.java) |  中等  |
+| 078   | [子集](src/main/java/algorithm/leetcode/Solution078.java) |  中等  |
 
 #### **数组**
 | 题号  | 题目   | 难度  |
