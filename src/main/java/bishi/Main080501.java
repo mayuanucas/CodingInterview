@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 拼多多
  * @date: 2018/08/05
  */
-public class Main001 {
+public class Main080501 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNext()) {
