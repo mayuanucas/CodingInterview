@@ -30,7 +30,15 @@ public class Solution051 {
         return answer;
     }
 
+    /**
+     * @param answer        所有解法
+     * @param oneAnswer     一种解法
+     * @param pos           保存每行皇后的位置
+     * @param numberOfQueen 皇后的数量
+     * @param index         当前迭代的行号
+     */
     private void dfs(List<List<String>> answer, String[] oneAnswer, int[] pos, int numberOfQueen, int index) {
+        // 最后一行也迭代完成, 把结果存到列表中
         if (numberOfQueen == index) {
             answer.add(Arrays.asList(oneAnswer.clone()));
             return;
@@ -49,7 +57,7 @@ public class Solution051 {
                     break;
                 }
             }
-            // 找到没有冲突的位置坐标,并进行下一步迭代
+            // 找到没有冲突的位置坐标,并进行下一步迭代.(如果在当前行没有找到合适位置,则回退到上几行重新摆放位置)
             if (!conflict) {
                 char[] line = new char[numberOfQueen];
                 Arrays.fill(line, '.');
