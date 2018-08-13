@@ -20,6 +20,7 @@ public class Solution306 {
             return false;
         }
 
+        // i 和 j 分别是第一个和第二个数字的长度
         for (int i = 1; i <= length / 2; ++i) {
             for (int j = 1; Math.max(i, j) <= length - i - j; ++j) {
                 if (isValid(num, i, j)) {
