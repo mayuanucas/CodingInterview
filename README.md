@@ -30,6 +30,7 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 | 131   | [分割回文串](src/main/java/algorithm/leetcode/Solution131.java) |  中等  |
 | 212   | [单词搜索2](src/main/java/algorithm/leetcode/Solution212.java) |  困难  |
 | 216   | [组合总和3](src/main/java/algorithm/leetcode/Solution216.java) |  困难  |
+| 306   | [累加数](src/main/java/algorithm/leetcode/Solution306.java) |  困难  |
 
 #### **数组**
 | 题号  | 题目   | 难度  |
