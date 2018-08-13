@@ -24,6 +24,7 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 | 077   | [组合](src/main/java/algorithm/leetcode/Solution077.java) |  中等  |
 | 078   | [子集](src/main/java/algorithm/leetcode/Solution078.java) |  中等  |
 | 079   | [单词搜索](src/main/java/algorithm/leetcode/Solution079.java) |  中等  |
+| 089   | [格雷编码](src/main/java/algorithm/leetcode/Solution089.java) |  中等  |
 | 090   | [子集2](src/main/java/algorithm/leetcode/Solution090.java) |  中等  |
 | 212   | [单词搜索2](src/main/java/algorithm/leetcode/Solution212.java) |  困难  |
 | 216   | [组合总和3](src/main/java/algorithm/leetcode/Solution216.java) |  困难  |
