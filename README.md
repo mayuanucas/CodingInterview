@@ -12,6 +12,8 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 
 | 题号  | 题目                                                             | 难度  |
 |:---:|:-------------------------------------------------------------- |:---:|
+| 200 | [岛屿的个数](src/main/java/algorithm/leetcode/Solution200.java) | 中等  |
+| 547 | [朋友圈](src/main/java/algorithm/leetcode/Solution547.java) | 中等  |
 | 695 | [岛屿的最大面积](src/main/java/algorithm/leetcode/Solution695.java) | 简单  |
 
 #### **回溯算法**
