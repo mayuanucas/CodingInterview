@@ -14,9 +14,43 @@ public class Solution046 {
     public static void main(String[] args) {
         Solution046 sol = new Solution046();
 //        System.out.println(sol.permute(new int[]{1, 2, 3}));
-        System.out.println(sol.permute2(new int[]{1, 2, 3}));
+//        System.out.println(sol.permute2(new int[]{1, 2, 3}));
+        System.out.println(sol.permute3(new int[]{1, 2, 3}));
     }
 
+    public List<List<Integer>> permute3(int[] nums) {
+        List<List<Integer>> answer = new ArrayList<>();
+
+        if (null == nums || 0 >= nums.length) {
+            return answer;
+        }
+
+        dfs2(answer, new LinkedList(), new boolean[nums.length], nums);
+        return answer;
+    }
+
+    private void dfs2(List<List<Integer>> answer, List<Integer> oneAnswer, boolean[] hasVisited, final int[] nums) {
+        if (oneAnswer.size() == nums.length) {
+            answer.add(new ArrayList<>(oneAnswer));
+            return;
+        }
+
+        for (int i = 0; i < hasVisited.length; ++i) {
+            if (hasVisited[i]) {
+                continue;
+            }
+
+            // 添加当前元素并进行标记
+            oneAnswer.add(nums[i]);
+            hasVisited[i] = true;
+
+            dfs2(answer, oneAnswer, hasVisited, nums);
+
+            // 移除当前元素并移除标记
+            oneAnswer.remove(oneAnswer.size() - 1);
+            hasVisited[i] = false;
+        }
+    }
 
     public List<List<Integer>> permute2(int[] nums) {
         List<List<Integer>> answer = new LinkedList<>();
