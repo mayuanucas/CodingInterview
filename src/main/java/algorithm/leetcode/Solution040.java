@@ -29,24 +29,31 @@ public class Solution040 {
         }
 
         Arrays.sort(candidates);
-        dfs(candidates, target, answer, oneAnswer, 0);
+        dfs(candidates, target, answer, oneAnswer, new boolean[candidates.length], 0);
         return answer;
     }
 
-    public void dfs(int[] candidates, int target, List<List<Integer>> answer, List<Integer> oneAnswer, int start) {
+    public void dfs(int[] candidates, int target, List<List<Integer>> answer, List<Integer> oneAnswer, boolean[] hasVisited, int start) {
         if (0 > target) {
             return;
         }
+
         if (0 == target) {
             answer.add(new LinkedList<>(oneAnswer));
         }
+
         for (int i = start; i < candidates.length; i++) {
-            oneAnswer.add(candidates[i]);
-            dfs(candidates, target - candidates[i], answer, oneAnswer, i + 1);
-            oneAnswer.remove(oneAnswer.size() - 1);
-            while (i < candidates.length - 1 && candidates[i] == candidates[i + 1]) {
-                i++;
+            if (0 != i && candidates[i] == candidates[i - 1] && !hasVisited[i - 1]) {
+                continue;
             }
+
+            oneAnswer.add(candidates[i]);
+            hasVisited[i] = true;
+
+            dfs(candidates, target - candidates[i], answer, oneAnswer, hasVisited, i + 1);
+
+            oneAnswer.remove(oneAnswer.size() - 1);
+            hasVisited[i] = false;
         }
     }
 }
