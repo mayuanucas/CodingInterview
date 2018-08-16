@@ -17,8 +17,9 @@ public class Solution017 {
     }
 
     public List<String> letterCombinations(String digits) {
-        if (null == digits || digits.length() < 1) {
-            return new ArrayList<>();
+        List<String> answer = new LinkedList<>();
+        if (null == digits || digits.length() <= 0) {
+            return answer;
         }
 
         Map<Integer, String> map = new HashMap<>(8);
@@ -31,12 +32,31 @@ public class Solution017 {
         map.put(8, "tuv");
         map.put(9, "wxyz");
 
-        List<String> answer = new LinkedList<>();
-        dfs(digits, map, answer, 0);
+//        dfs(digits, map, answer, 0);
+        dfs2(answer, new StringBuilder(), digits, map);
         return answer;
     }
 
-    public void dfs(String digits, Map<Integer, String> map, List<String> answer, int index) {
+    private void dfs2(List<String> answer, StringBuilder oneAnswer, final String digits, Map<Integer, String> map) {
+        if (oneAnswer.length() == digits.length()) {
+            answer.add(oneAnswer.toString());
+            return;
+        }
+
+        // 当前位置的数字
+        int currentDigit = digits.charAt(oneAnswer.length()) - '0';
+        // 当前位置的数字按键上的字符串
+        String letter = map.get(currentDigit);
+        for (char c : letter.toCharArray()) {
+            // 添加该字符
+            oneAnswer.append(c);
+            dfs2(answer, oneAnswer, digits, map);
+            // 删除该字符
+            oneAnswer.deleteCharAt(oneAnswer.length() - 1);
+        }
+    }
+
+    public void dfs(final String digits, Map<Integer, String> map, List<String> answer, int index) {
         // 获取当前序号上的数字
         int key = digits.charAt(index) - '0';
         // 获取当前数字按键上的所有字符
