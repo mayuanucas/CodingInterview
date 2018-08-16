@@ -24,6 +24,7 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 |:---:|:-------------------------------------------------------------- |:---:|
 | 017 | [电话号码的字母组合](src/main/java/algorithm/leetcode/Solution017.java) | 中等  |
 | 022 | [括号生成](src/main/java/algorithm/leetcode/Solution022.java)      | 中等  |
+| 037 | [解数独](src/main/java/algorithm/leetcode/Solution037.java)      | 中等  |
 | 039 | [组合总和](src/main/java/algorithm/leetcode/Solution039.java)      | 中等  |
 | 040 | [组合总和2](src/main/java/algorithm/leetcode/Solution040.java)     | 中等  |
 | 046 | [全排列](src/main/java/algorithm/leetcode/Solution046.java)       | 中等  |
