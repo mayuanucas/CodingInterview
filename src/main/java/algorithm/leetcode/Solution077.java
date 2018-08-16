@@ -46,7 +46,9 @@ public class Solution077 {
 
         for (int i = index; i <= n; i++) {
             oneAnswer.add(i);
+
             dfs(answer, oneAnswer, n, k, i + 1);
+
             oneAnswer.remove(oneAnswer.size() - 1);
         }
     }
