@@ -1,5 +1,6 @@
 package algorithm.leetcode;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -10,7 +11,7 @@ import java.util.List;
  */
 public class Solution131 {
     public static void main(String[] args) {
-        String str = "aabad";
+        String str = "aab";
 
         Solution131 test = new Solution131();
         List<List<String>> result = test.partition(str);
@@ -39,7 +40,7 @@ public class Solution131 {
         }
 
         for (int i = 0; i < s.length(); i++) {
-            if (isValid(s, 0, i)) {
+            if (isPalindrome(s, 0, i)) {
                 oneAnswer.add(s.substring(0, i + 1));
                 dfs(answer, oneAnswer, s.substring(i + 1));
                 oneAnswer.remove(oneAnswer.size() - 1);
@@ -47,13 +48,18 @@ public class Solution131 {
         }
     }
 
-    private boolean isValid(String str, int left, int right) {
+    /**
+     * 判断该字符串是否是回文字符串
+     * @param str
+     * @param left
+     * @param right
+     * @return
+     */
+    private boolean isPalindrome(String str, int left, int right) {
         while (left < right) {
-            if (str.charAt(left) != str.charAt(right)) {
+            if (str.charAt(left++) != str.charAt(right--)) {
                 return false;
             }
-            left++;
-            right--;
         }
         return true;
     }
