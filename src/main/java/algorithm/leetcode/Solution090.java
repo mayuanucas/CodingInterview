@@ -27,23 +27,37 @@ public class Solution090 {
         List<List<Integer>> answer = new LinkedList<>();
         List<Integer> oneAnswer = new LinkedList<>();
 
+        if (null == nums || 0 >= nums.length) {
+            return answer;
+        }
+
         // 必须先对数组进行排序
         Arrays.sort(nums);
-        dfs(answer, oneAnswer, nums, 0);
+        for (int size = 0; size <= nums.length; ++size) {
+            dfs(answer, oneAnswer, new boolean[nums.length], nums, size, 0);
+        }
         return answer;
     }
 
-    public void dfs(List<List<Integer>> answer, List<Integer> oneAnswer, int[] nums, int index) {
-        answer.add(new LinkedList<>(oneAnswer));
+    public void dfs(List<List<Integer>> answer, List<Integer> oneAnswer, boolean[] hasVisited, int[] nums, int size, int start) {
+        if (size == oneAnswer.size()) {
+            answer.add(new LinkedList<>(oneAnswer));
+            return;
+        }
 
-        for (int i = index; i < nums.length; i++) {
+        for (int i = start; i < nums.length; i++) {
             // 去除重复的解
-            if (i > index && nums[i - 1] == nums[i]) {
+            if (0 != i && nums[i] == nums[i - 1] && !hasVisited[i - 1]) {
                 continue;
             }
+
             oneAnswer.add(nums[i]);
-            dfs(answer, oneAnswer, nums, i + 1);
+            hasVisited[i] = true;
+
+            dfs(answer, oneAnswer, hasVisited, nums, size, i + 1);
+
             oneAnswer.remove(oneAnswer.size() - 1);
+            hasVisited[i] = false;
         }
     }
 }
