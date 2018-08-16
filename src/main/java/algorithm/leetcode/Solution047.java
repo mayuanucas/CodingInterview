@@ -14,17 +14,45 @@ public class Solution047 {
 
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> answer = new LinkedList<>();
-        List<Integer> oneAnswer = new ArrayList<>(nums.length);
+        List<Integer> oneAnswer = new LinkedList<>();
 
         // 有相同值时注意先排序将相同值放在一起
         Arrays.sort(nums);
 
-        for (int item : nums) {
-            oneAnswer.add(item);
+//        for (int item : nums) {
+//            oneAnswer.add(item);
+//        }
+//
+//        dfs(answer, oneAnswer, 0);
+
+        dfs(answer, oneAnswer, new boolean[nums.length], nums);
+        return answer;
+    }
+
+    private void dfs(List<List<Integer>> answer, List<Integer> oneAnswer, boolean[] hasVisited, final int[] nums) {
+        if (oneAnswer.size() == nums.length) {
+            answer.add(new ArrayList<>(oneAnswer));
+            return;
         }
 
-        dfs(answer, oneAnswer, 0);
-        return answer;
+        for (int i = 0; i < nums.length; ++i) {
+            // 避免重复-> 当前位置数字与前一位数字相同,并且前一位置数字并没有被使用过
+            if (0 != i && nums[i] == nums[i - 1] && !hasVisited[i - 1]) {
+                continue;
+            }
+
+            if (hasVisited[i]) {
+                continue;
+            }
+
+            oneAnswer.add(nums[i]);
+            hasVisited[i] = true;
+
+            dfs(answer, oneAnswer, hasVisited, nums);
+
+            oneAnswer.remove(oneAnswer.size() - 1);
+            hasVisited[i] = false;
+        }
     }
 
     public void dfs(List<List<Integer>> answer, List<Integer> oneAnswer, int index) {
