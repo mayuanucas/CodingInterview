@@ -1,5 +1,6 @@
 package algorithm.leetcode;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -33,16 +34,22 @@ public class Solution078 {
         List<List<Integer>> answer = new LinkedList<>();
         List<Integer> oneAnswer = new LinkedList<>();
 
-        dfs(answer, oneAnswer, nums, 0);
+        // 找出不同大小的子集
+        for (int size = 0; size <= nums.length; ++size) {
+            dfs(answer, oneAnswer, nums, size, 0);
+        }
         return answer;
     }
 
-    private void dfs(List<List<Integer>> answer, List<Integer> oneAnswer, int[] nums, int index) {
-        answer.add(new LinkedList<>(oneAnswer));
+    private void dfs(List<List<Integer>> answer, List<Integer> oneAnswer, int[] nums, int size, int start) {
+        if (size == oneAnswer.size()) {
+            answer.add(new LinkedList<>(oneAnswer));
+            return;
+        }
 
-        for (int i = index; i < nums.length; i++) {
+        for (int i = start; i < nums.length; i++) {
             oneAnswer.add(nums[i]);
-            dfs(answer, oneAnswer, nums, i + 1);
+            dfs(answer, oneAnswer, nums, size, i + 1);
             oneAnswer.remove(oneAnswer.size() - 1);
         }
     }
