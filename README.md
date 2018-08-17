@@ -15,6 +15,7 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 | 167 | [两数之和 II - 输入有序数组](src/main/java/algorithm/leetcode/Solution167.java) | 简单  |
 | 345 | [反转字符串中的元音字符](src/main/java/algorithm/leetcode/Solution345.java) | 简单  |
 | 633 | [平方数之和](src/main/java/algorithm/leetcode/Solution633.java) | 简单  |
+| 680 | [验证回文字符串 Ⅱ](src/main/java/algorithm/leetcode/Solution680.java) | 简单  |
 
 #### **深度优先搜索**
 
