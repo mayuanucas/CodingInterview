@@ -12,8 +12,11 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 
 | 题号  | 题目                                                             | 难度  |
 |:---:|:-------------------------------------------------------------- |:---:|
+| 088 | [合并两个有序数组](src/main/java/algorithm/leetcode/Solution088.java) | 简单  |
+| 144 | [环形链表](src/main/java/algorithm/leetcode/Solution144.java) | 简单  |
 | 167 | [两数之和 II - 输入有序数组](src/main/java/algorithm/leetcode/Solution167.java) | 简单  |
 | 345 | [反转字符串中的元音字符](src/main/java/algorithm/leetcode/Solution345.java) | 简单  |
+| 524 | [通过删除字母匹配到字典里最长单词](src/main/java/algorithm/leetcode/Solution524.java) | 中等  |
 | 633 | [平方数之和](src/main/java/algorithm/leetcode/Solution633.java) | 简单  |
 | 680 | [验证回文字符串 Ⅱ](src/main/java/algorithm/leetcode/Solution680.java) | 简单  |
 
