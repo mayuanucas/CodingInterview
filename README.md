@@ -44,6 +44,15 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 | 257 | [二叉树的所有路径](src/main/java/algorithm/leetcode/Solution257.java)     | 困难  |
 | 306 | [累加数](src/main/java/algorithm/leetcode/Solution306.java)       | 困难  |
 
+#### **动态规划**
+
+| 题号  | 题目                                                             | 难度  |
+|:---:|:-------------------------------------------------------------- |:---:|
+| 053 | [最大子序和](src/main/java/algorithm/leetcode/Solution053.java) | 简单  |
+| 070 | [爬楼梯](src/main/java/algorithm/leetcode/Solution070.java) | 简单  |
+| 198 | [打家劫舍](src/main/java/algorithm/leetcode/Solution198.java) | 简单  |
+| 213 | [打家劫舍2](src/main/java/algorithm/leetcode/Solution213.java) | 中等  |
+
 #### **数组**
 
 | 题号  | 题目                                                             | 难度  |
