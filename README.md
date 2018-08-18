@@ -33,8 +33,12 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 
 | 题号  | 题目                                                             | 难度  |
 |:---:|:-------------------------------------------------------------- |:---:|
-| 455 | [分配饼干](src/main/java/algorithm/leetcode/Solution455.java) | 简单  |
+| 122 | [买卖股票的最佳时机 II](src/main/java/algorithm/leetcode/Solution122.java) | 简单  |
+| 392 | [判断子序列](src/main/java/algorithm/leetcode/Solution392.java) | 简单  |
+| 406 | [据身高重建队列](src/main/java/algorithm/leetcode/Solution406.java) | 简单  |
 | 435 | [无重叠区间](src/main/java/algorithm/leetcode/Solution435.java) | 简单  |
+| 452 | [用最少数量的箭引爆气球](src/main/java/algorithm/leetcode/Solution452.java) | 简单  |
+| 455 | [分配饼干](src/main/java/algorithm/leetcode/Solution455.java) | 简单  |
 
 #### **深度优先搜索**
 
