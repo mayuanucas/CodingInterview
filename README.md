@@ -29,6 +29,12 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 | 347 | [前K个高频元素](src/main/java/algorithm/leetcode/Solution347.java) | 中等  |
 | 451 | [根据字符出现频率排序](src/main/java/algorithm/leetcode/Solution451.java) | 中等  |
 
+#### **贪心算法**
+
+| 题号  | 题目                                                             | 难度  |
+|:---:|:-------------------------------------------------------------- |:---:|
+| 455 | [分配饼干](src/main/java/algorithm/leetcode/Solution455.java) | 简单  |
+
 #### **深度优先搜索**
 
 | 题号  | 题目                                                             | 难度  |
