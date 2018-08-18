@@ -24,7 +24,10 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 
 | 题号  | 题目                                                             | 难度  |
 |:---:|:-------------------------------------------------------------- |:---:|
+| 075 | [颜色分类](src/main/java/algorithm/leetcode/Solution075.java) | 中等  |
 | 215 | [数组中的第K个最大元素](src/main/java/algorithm/leetcode/Solution215.java) | 中等  |
+| 347 | [前K个高频元素](src/main/java/algorithm/leetcode/Solution347.java) | 中等  |
+| 451 | [根据字符出现频率排序](src/main/java/algorithm/leetcode/Solution451.java) | 中等  |
 
 #### **深度优先搜索**
 
