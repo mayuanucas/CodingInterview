@@ -39,6 +39,9 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 | 435 | [无重叠区间](src/main/java/algorithm/leetcode/Solution435.java) | 简单  |
 | 452 | [用最少数量的箭引爆气球](src/main/java/algorithm/leetcode/Solution452.java) | 简单  |
 | 455 | [分配饼干](src/main/java/algorithm/leetcode/Solution455.java) | 简单  |
+| 605 | [种花问题](src/main/java/algorithm/leetcode/Solution605.java) | 简单  |
+| 665 | [非递减数列](src/main/java/algorithm/leetcode/Solution665.java) | 简单  |
+| 763 | [划分字母区间](src/main/java/algorithm/leetcode/Solution763.java) | 简单  |
 
 #### **深度优先搜索**
 
