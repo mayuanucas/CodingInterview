@@ -43,6 +43,13 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 | 665 | [非递减数列](src/main/java/algorithm/leetcode/Solution665.java) | 简单  |
 | 763 | [划分字母区间](src/main/java/algorithm/leetcode/Solution763.java) | 简单  |
 
+#### **二分搜索**
+
+| 题号  | 题目                                                             | 难度  |
+|:---:|:-------------------------------------------------------------- |:---:|
+| 069 | [x 的平方根](src/main/java/algorithm/leetcode/Solution069.java) | 简单  |
+| 744 | [寻找比目标字母大的最小字母](src/main/java/algorithm/leetcode/Solution744.java) | 简单  |
+
 #### **深度优先搜索**
 
 | 题号  | 题目                                                             | 难度  |
