@@ -60,6 +60,13 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 |:---:|:-------------------------------------------------------------- |:---:|
 | 241 | [在排序数组中查找元素的第一个和最后一个位置](src/main/java/algorithm/leetcode/Solution241.java) | 中等  |
 
+#### **广度优先搜索**
+
+| 题号  | 题目                                                             | 难度  |
+|:---:|:-------------------------------------------------------------- |:---:|
+| 127 | [单词接龙](src/main/java/algorithm/leetcode/Solution127.java) | 中等  |
+| 279 | [完全平方数](src/main/java/algorithm/leetcode/Solution279.java) | 中等  |
+
 #### **深度优先搜索**
 
 | 题号  | 题目                                                             | 难度  |
