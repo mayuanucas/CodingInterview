@@ -9,6 +9,14 @@ import java.util.List;
  * @date: 2018/08/21
  */
 public class Solution241 {
+    public static void main(String[] args) {
+        String str1 = "2*3-4*5";
+
+        Solution241 test = new Solution241();
+        List<Integer> ans = test.diffWaysToCompute(str1);
+        ans.forEach(System.out::println);
+    }
+
     public List<Integer> diffWaysToCompute(String input) {
         List<Integer> ways = new ArrayList<>();
         for (int i = 0; i < input.length(); ++i) {
