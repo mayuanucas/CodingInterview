@@ -54,6 +54,12 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 | 540 | [有序数组中的单一元素](src/main/java/algorithm/leetcode/Solution540.java) | 中等  |
 | 744 | [寻找比目标字母大的最小字母](src/main/java/algorithm/leetcode/Solution744.java) | 简单  |
 
+#### **分治**
+
+| 题号  | 题目                                                             | 难度  |
+|:---:|:-------------------------------------------------------------- |:---:|
+| 241 | [在排序数组中查找元素的第一个和最后一个位置](src/main/java/algorithm/leetcode/Solution241.java) | 中等  |
+
 #### **深度优先搜索**
 
 | 题号  | 题目                                                             | 难度  |
