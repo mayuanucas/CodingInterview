@@ -104,6 +104,7 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 | 306 | [累加数](src/main/java/algorithm/leetcode/Solution306.java)       | 困难  |
 
 #### **动态规划**
+##### **斐波那契数列**
 
 | 题号  | 题目                                                             | 难度  |
 |:---:|:-------------------------------------------------------------- |:---:|
@@ -111,6 +112,27 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 | 070 | [爬楼梯](src/main/java/algorithm/leetcode/Solution070.java) | 简单  |
 | 198 | [打家劫舍](src/main/java/algorithm/leetcode/Solution198.java) | 简单  |
 | 213 | [打家劫舍2](src/main/java/algorithm/leetcode/Solution213.java) | 中等  |
+
+##### **矩阵路径**
+
+| 题号  | 题目                                                             | 难度  |
+|:---:|:-------------------------------------------------------------- |:---:|
+| 062 | [不同路径](src/main/java/algorithm/leetcode/Solution062.java) | 中等  |
+| 064 | [最小路径和](src/main/java/algorithm/leetcode/Solution064.java) | 中等  |
+
+##### **数组区间**
+
+| 题号  | 题目                                                             | 难度  |
+|:---:|:-------------------------------------------------------------- |:---:|
+| 053 | [子数组最大的和](src/main/java/algorithm/leetcode/Solution053.java) | 简单  |
+| 303 | [数组区间和](src/main/java/algorithm/leetcode/Solution303.java) | 简单  |
+| 413 | [等差数列划分](src/main/java/algorithm/leetcode/Solution413.java) | 中等  |
+
+#### **分割整数**
+
+| 题号  | 题目                                                             | 难度  |
+|:---:|:-------------------------------------------------------------- |:---:|
+| 343 | [整数拆分](src/main/java/algorithm/leetcode/Solution343.java) | 中等  |
 
 #### **数组**
 
