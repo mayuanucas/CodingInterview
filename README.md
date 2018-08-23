@@ -142,6 +142,8 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 | 题号  | 题目                                                             | 难度  |
 |:---:|:-------------------------------------------------------------- |:---:|
 | 139 | [单词拆分](src/main/java/algorithm/leetcode/Solution139.java) | 中等  |
+| 322 | [零钱兑换](src/main/java/algorithm/leetcode/Solution322.java) | 中等  |
+| 377 | [组合总和 Ⅳ](src/main/java/algorithm/leetcode/Solution377.java) | 中等  |
 | 416 | [分割等和子集](src/main/java/algorithm/leetcode/Solution416.java) | 中等  |
 | 474 | [一和零](src/main/java/algorithm/leetcode/Solution474.java) | 中等  |
 | 494 | [目标和](src/main/java/algorithm/leetcode/Solution494.java) | 中等  |
