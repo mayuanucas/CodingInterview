@@ -149,6 +149,12 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 |:---:|:-------------------------------------------------------------- |:---:|
 | 208 | [实现 Trie (前缀树)](src/main/java/algorithm/leetcode/Trie.java) | 中等  |
 
+### 算法笔记
+
+红黑树: [红黑树](src/main/java/algorithm/RedBlackTree.md)
+
+最长公共子序列: [最长公共子序列](src/main/java/algorithm/最长公共子序列.md)
+
 ### [51nod](http://www.51nod.com/)
 
 51nod 解题记录:  [51nod解题](src/main/resources/nod51)
