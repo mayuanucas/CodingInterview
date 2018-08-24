@@ -128,7 +128,7 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 | 303 | [数组区间和](src/main/java/algorithm/leetcode/Solution303.java) | 简单  |
 | 413 | [等差数列划分](src/main/java/algorithm/leetcode/Solution413.java) | 中等  |
 
-#### **分割整数**
+##### **分割整数**
 
 | 题号  | 题目                                                             | 难度  |
 |:---:|:-------------------------------------------------------------- |:---:|
@@ -137,7 +137,7 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 | 343 | [整数拆分](src/main/java/algorithm/leetcode/Solution343.java) | 中等  |
 | 376 | [最长摆动子序列](src/main/java/algorithm/leetcode/Solution376.java) | 中等  |
 
-#### **0-1背包问题**
+##### **0-1背包问题**
 
 | 题号  | 题目                                                             | 难度  |
 |:---:|:-------------------------------------------------------------- |:---:|
@@ -147,6 +147,12 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 | 416 | [分割等和子集](src/main/java/algorithm/leetcode/Solution416.java) | 中等  |
 | 474 | [一和零](src/main/java/algorithm/leetcode/Solution474.java) | 中等  |
 | 494 | [目标和](src/main/java/algorithm/leetcode/Solution494.java) | 中等  |
+
+##### **字符串编辑**
+
+| 题号  | 题目                                                             | 难度  |
+|:---:|:-------------------------------------------------------------- |:---:|
+| 583 | [两个字符串的删除操作](src/main/java/algorithm/leetcode/Solution139.java) | 中等  |
 
 #### **数组**
 
