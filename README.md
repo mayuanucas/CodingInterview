@@ -153,7 +153,7 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 | 题号  | 题目                                                             | 难度  |
 |:---:|:-------------------------------------------------------------- |:---:|
 | 072 | [编辑距离](src/main/java/algorithm/leetcode/Solution072.java) | 中等  |
-| 583 | [两个字符串的删除操作](src/main/java/algorithm/leetcode/Solution139.java) | 中等  |
+| 583 | [两个字符串的删除操作](src/main/java/algorithm/leetcode/Solution583.java) | 中等  |
 | 650 | [只有两个键的键盘](src/main/java/algorithm/leetcode/Solution650.java) | 中等  |
 
 #### **数组**
