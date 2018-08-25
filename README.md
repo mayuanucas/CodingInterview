@@ -135,7 +135,14 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 | 091 | [解码方法](src/main/java/algorithm/leetcode/Solution091.java) | 中等  |
 | 279 | [完全平方数](src/main/java/algorithm/leetcode/Solution279.java) | 中等  |
 | 343 | [整数拆分](src/main/java/algorithm/leetcode/Solution343.java) | 中等  |
+
+##### **最长递增子序列**
+
+| 题号  | 题目                                                             | 难度  |
+|:---:|:-------------------------------------------------------------- |:---:|
+| 300 | [最长递增子序列](src/main/java/algorithm/leetcode/Solution300.java) | 中等  |
 | 376 | [最长摆动子序列](src/main/java/algorithm/leetcode/Solution376.java) | 中等  |
+| 646 | [一组整数对能够构成的最长链](src/main/java/algorithm/leetcode/Solution646.java) | 中等  |
 
 ##### **0-1背包问题**
 
