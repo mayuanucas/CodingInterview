@@ -29,7 +29,7 @@ public class Solution494 {
         }
 
         int W = (sum + S) / 2;
-        // dp[i][j]表示前i 个数的子集和为j 的种类数
+        // dp[j]表示子集和为j 的种类数
         int[] dp = new int[W + 1];
         dp[0] = 1;
 

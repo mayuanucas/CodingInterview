@@ -26,7 +26,7 @@ public class Solution091 {
         for (int i = 2; i <= s.length(); ++i) {
             int oneDigit = Integer.valueOf(s.substring(i - 1, i));
             int twoDigit = Integer.valueOf(s.substring(i - 2, i));
-            // 字符长度为 n 时,且该字符不为'0'并且该字符和其前面一位的字符也可以组成合法数字,则解码方式为 dp[i] = dp[i-1]+dp[i-2]
+            // 字符长度为 i 时,且该字符不为'0'并且该字符和其前面一位的字符也可以组成合法数字,则解码方式为 dp[i] = dp[i-1]+dp[i-2]
             if (1 <= oneDigit && oneDigit <= 9) {
                 dp[i] += dp[i - 1];
             }
