@@ -10,7 +10,7 @@ public class Solution {
         BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(System.out), 1<<16);
 
         int num = Integer.parseInt(bufferedReader.readLine());
-        bufferedWriter.write(Solution.miu(num) + "\n");
+        bufferedWriter.write(Solution0826.miu(num) + "\n");
         bufferedWriter.flush();
     }
 
