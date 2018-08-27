@@ -183,7 +183,7 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 
 ### [51nod](http://www.51nod.com/)
 
-51nod 解题记录:  [51nod解题](src/main/java/nod51)
+51nod 解题记录:  [51nod解题](src/main/resources/nod51)
 
 ### 剑指offer(第二版)
 
