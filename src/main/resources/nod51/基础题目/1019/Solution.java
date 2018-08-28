@@ -16,7 +16,7 @@ public class Solution {
             arrNumber[i] = sc.nextInt();
         }
 
-        Solution0826.mergeSort(arrNumber, 0, totalNumber - 1);
+        Solution.mergeSort(arrNumber, 0, totalNumber - 1);
 
         System.out.println(answer);
         

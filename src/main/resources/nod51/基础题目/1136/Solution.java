@@ -9,7 +9,7 @@ public class Solution {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
-        System.out.println(Solution0826.phi(n));
+        System.out.println(Solution.phi(n));
 
     }
 

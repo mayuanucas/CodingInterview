@@ -21,7 +21,7 @@ public class Solution {
                 y[i] = Integer.parseInt(temp[1]);
                 z[i] = Integer.parseInt(temp[2]);
             }
-            if (Solution0826.gongMian(x, y, z)){
+            if (Solution.gongMian(x, y, z)){
                 bufferedWriter.write("Yes\n");
             } else {
                 bufferedWriter.write("No\n");

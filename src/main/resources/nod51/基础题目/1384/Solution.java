@@ -14,7 +14,7 @@ public class Solution {
         Set<String> set = new TreeSet<>();
 
         Arrays.sort(originString);
-        Solution0826.dfs(originString, 0, set);
+        Solution.dfs(originString, 0, set);
 
         for (String str : set){
             System.out.println(str);
@@ -31,9 +31,9 @@ public class Solution {
                 if (i != cnt && text[i] == text[cnt]){
                     continue;
                 }
-                Solution0826.swap(text, i, cnt);
+                Solution.swap(text, i, cnt);
                 dfs(text, cnt + 1, set);
-                Solution0826.swap(text, i, cnt);
+                Solution.swap(text, i, cnt);
             }
         }
     }

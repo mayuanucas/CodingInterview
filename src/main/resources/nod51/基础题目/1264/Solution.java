@@ -12,7 +12,7 @@ public class Solution {
         int n = Integer.parseInt(bufferedReader.readLine());
         while (0 < n--){
             String[] temp = bufferedReader.readLine().split("\\s+");
-            if (Solution0826.paichi(
+            if (Solution.paichi(
                     Double.parseDouble(temp[0]),
                     Double.parseDouble(temp[1]),
                     Double.parseDouble(temp[2]),

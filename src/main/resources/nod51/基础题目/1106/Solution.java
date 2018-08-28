@@ -10,7 +10,7 @@ public class Solution {
 
         int totalNumber = sc.nextInt();
         while (0 < (totalNumber--)) {
-            if (Solution0826.isPrimeNumber(sc.nextInt())) {
+            if (Solution.isPrimeNumber(sc.nextInt())) {
                 System.out.println("Yes");
             } else {
                 System.out.println("No");

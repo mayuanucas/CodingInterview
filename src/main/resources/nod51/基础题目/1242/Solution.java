@@ -15,7 +15,7 @@ public class Solution {
 
         long n = Long.parseLong(bufferedReader.readLine());
 
-        bufferedWriter.write(Solution0826.fibonacci(n - 1) + "\n");
+        bufferedWriter.write(Solution.fibonacci(n - 1) + "\n");
         bufferedWriter.flush();
 
     }

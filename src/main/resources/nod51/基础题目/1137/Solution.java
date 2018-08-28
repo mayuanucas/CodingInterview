@@ -1,4 +1,5 @@
 import java.io.*;
+import java.util.Scanner;
 
 /**
  * @author alpha
@@ -27,7 +28,7 @@ public class Solution {
             }
         }
 
-        long[][] c = Solution0826.matrixMul(ma, mb);
+        long[][] c = Solution.matrixMul(ma, mb);
 
         for (int i=0; i<n; i++){
             for (int j=0; j<n; j++){
