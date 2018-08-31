@@ -16,7 +16,8 @@ public class MySort {
 //        insertSort(numbers);
 //        selectSort(numbers);
 //        mergeSort(numbers);
-        shellSort(numbers);
+//        shellSort(numbers);
+        heapSort(numbers);
 
         printArray(numbers);
 
@@ -222,6 +223,56 @@ public class MySort {
                 for (int j = i - gap; j >= 0 && nums[j] > nums[j + gap]; j -= gap) {
                     swap(nums, j, j + gap);
                 }
+            }
+        }
+    }
+
+    /**
+     * 堆排序
+     * 不稳定
+     * <p>
+     * 最坏: O(log(n))
+     * 最好: O(log(n))
+     * 平均: O(log(n))
+     *
+     * @param nums
+     */
+    public static void heapSort(int[] nums) {
+        if (null == nums || 1 >= nums.length) {
+            return;
+        }
+
+        // 遍历之后,得到的数组是一个(最大)二叉堆
+        for (int i = (nums.length - 1) / 2; i >= 0; --i) {
+            maxHeapDown(nums, i, nums.length - 1);
+        }
+
+        // 从最后一个元素开始对序列进行调整,不断的缩小调整的范围知道第一个元素
+        for (int i = nums.length - 1; i > 0; --i) {
+            // 交换a[0]和a[i]。交换后，a[i]是a[0...i]中最大的
+            swap(nums, 0, i);
+            // 调整a[0...i-1]，使得a[0...i-1]仍然是一个最大堆,即:保证a[i-1]是a[0...i-1]中的最大值
+            maxHeapDown(nums, 0, i - 1);
+        }
+    }
+
+    private static void maxHeapDown(int[] nums, int start, int end) {
+        // 当前节点的位置
+        int current = start;
+        // 左孩子位置
+        int left = 2 * current + 1;
+
+        for (; left <= end; current = left, left = 2 * left + 1) {
+            // left是左孩子, left+1是右孩子
+            if (left < end && nums[left] < nums[left + 1]) {
+                // 左右孩子中选择最大值
+                ++left;
+            }
+            // 调整结束
+            if (nums[current] >= nums[left]) {
+                break;
+            } else {
+                swap(nums, current, left);
             }
         }
     }
