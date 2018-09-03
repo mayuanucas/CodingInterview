@@ -2,7 +2,7 @@ package algorithm.knapsack;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 01背包问题
  * @date: 2018/09/03
  */
 public class Problem01 {
