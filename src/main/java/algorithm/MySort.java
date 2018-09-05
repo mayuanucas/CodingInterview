@@ -152,9 +152,9 @@ public class MySort {
      * 归并排序
      * 稳定
      * <p>
-     * 最坏: O(log(n))
-     * 最好: O(log(n))
-     * 平均: O(log(n))
+     * 最坏: O(n*log(n))
+     * 最好: O(n*log(n))
+     * 平均: O(n*log(n))
      *
      * @param nums
      */
@@ -231,9 +231,9 @@ public class MySort {
      * 堆排序
      * 不稳定
      * <p>
-     * 最坏: O(log(n))
-     * 最好: O(log(n))
-     * 平均: O(log(n))
+     * 最坏: O(n*log(n))
+     * 最好: O(n*log(n))
+     * 平均: O(n*log(n))
      *
      * @param nums
      */
