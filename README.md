@@ -175,6 +175,15 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 |:---:|:-------------------------------------------------------------- |:---:|
 | 208 | [实现 Trie (前缀树)](src/main/java/algorithm/leetcode/Trie.java) | 中等  |
 
+#### **背包问题**
+
+| 类型  | 题目                                                             |
+|:---:|:-------------------------------------------------------------- :|
+| 01背包 | [01背包](src/main/java/algorithm/knapsack/Problem01.java) |
+| 完全背包 | [完全背包](src/main/java/algorithm/knapsack/Problem02.java) |
+| 多重背包 | [多重背包](src/main/java/algorithm/knapsack/Problem03.java) |
+| 背包模板 | [背包模板](src/main/java/algorithm/knapsack/Problem04.java) |
+
 ### 算法笔记
 
 红黑树: [红黑树](src/main/java/algorithm/RedBlackTree.md)
