@@ -107,7 +107,7 @@ public class Problem01 {
             // 选择了第 i 个物品
             if (dp[i][j] == dp[i - 1][j - w] + v) {
                 record[i - 1] = true;
-                j -= v;
+                j -= w;
             }
         }
         for (int n = 0; n < record.length; ++n) {
