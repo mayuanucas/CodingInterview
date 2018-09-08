@@ -1,43 +1,36 @@
 package algorithm.str;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @author: mayuan
- * @desc: 最长回文子串 leetcode 005
- * @date: 2018/09/07
+ * @desc: 第一个只出现一次的字符
+ * @date: 2018/09/08
  */
 public class Problem07 {
-    private int index;
-    private int len;
-
     public static void main(String[] args) {
-        Problem07 solution = new Problem07();
+        String str = "abcabb";
 
-        System.out.println(solution.longestPalindrome("ac"));
+        int ans = FirstNotRepeatingChar(str);
+        System.out.println((char)ans);
     }
 
-    public String longestPalindrome(String s) {
-        if (null == s || 2 > s.length()) {
-            return s;
+    public static int FirstNotRepeatingChar(String str) {
+        if (null == str || str.length() < 1) {
+            return -1;
         }
 
-        for (int i = 0; i < s.length() - 1; ++i) {
-            palindromeHelper(s, i, i);
-            palindromeHelper(s, i, i + 1);
+        Map<Character, Integer> map = new HashMap<>(128);
+        for (char c : str.toCharArray()) {
+            map.put(c, map.getOrDefault(c, 0) + 1);
         }
 
-        return s.substring(index, index + len);
-    }
-
-    public void palindromeHelper(String s, int l, int r) {
-        while (l >= 0 && r < s.length() && s.charAt(l) == s.charAt(r)) {
-            --l;
-            ++r;
+        for (char c : str.toCharArray()) {
+            if (1 == map.getOrDefault(c, 0)) {
+                return c;
+            }
         }
-
-        // 发现更长的回文子序列,则进行更新
-        if (len < r - l - 1) {
-            index = l + 1;
-            len = r - l - 1;
-        }
+        return -1;
     }
 }
