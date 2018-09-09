@@ -11,6 +11,7 @@ public class Solution003 {
 
     /**
      * 使用滑动窗口方式解题
+     *
      * @param s
      * @return
      */
@@ -23,6 +24,23 @@ public class Solution003 {
             }
             ans = Math.max(ans, j - i + 1);
             map.put(s.charAt(j), j + 1);
+        }
+        return ans;
+    }
+
+    public int lengthOfLongestSubstring2(String s) {
+        int ans = 0;
+        Map<Character, Integer> map = new HashMap<>();
+
+        for (int start = 0, end = 0; end < s.length(); ++end) {
+            char c = s.charAt(end);
+            if (map.containsKey(c)) {
+                // 起始指针只能向后移动
+                start = Math.max(map.get(c) + 1, start);
+            }
+
+            ans = Math.max(ans, end - start + 1);
+            map.put(s.charAt(end), end);
         }
         return ans;
     }
