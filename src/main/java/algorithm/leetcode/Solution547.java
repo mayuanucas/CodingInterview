@@ -34,7 +34,7 @@ public class Solution547 {
 
     private void dfs(int[][] M, boolean[] hasVisited, int i) {
         hasVisited[i] = true;
-        for (int j = 0; j < M.length; ++j) {
+        for (int j = 0; j < M[i].length; ++j) {
             if (1 == M[i][j] && !hasVisited[j]) {
                 dfs(M, hasVisited, j);
             }
