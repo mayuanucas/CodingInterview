@@ -197,6 +197,8 @@ TOP-K问题: [常见TOP-K问题](/src/main/java/algorithm/TopK.java)
 
 二叉树遍历递归与非递归: [二叉树遍历递归与非递归](/src/main/java/algorithm/TreeVisit.java)
 
+将字符串转换为数字: [将字符串转换为数字](/src/main/java/algorithm/StrToNumber.java)
+
 ### [51nod](http://www.51nod.com/)
 
 51nod 解题记录:  [51nod解题](src/main/resources/nod51)
