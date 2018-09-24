@@ -72,6 +72,11 @@ public class TreeVisit {
         }
     }
 
+    /**
+     * 二叉树的层次遍历
+     *
+     * @param node
+     */
     public static void levelTraversal(TreeNode node) {
         if (null == node) {
             return;
