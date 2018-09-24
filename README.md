@@ -193,6 +193,10 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 
 常见排序算法: [常见排序算法](src/main/java/algorithm/MySort.java)
 
+TOP-K问题: [常见TOP-K问题](/src/main/java/algorithm/TopK.java)
+
+二叉树遍历递归与非递归: [二叉树遍历递归与非递归](/src/main/java/algorithm/TreeVisit.java)
+
 ### [51nod](http://www.51nod.com/)
 
 51nod 解题记录:  [51nod解题](src/main/resources/nod51)
