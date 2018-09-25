@@ -2,8 +2,6 @@
 
 > 此项目建议搭配[Code tree for GitHub](https://github.com/buunguyen/octotree)效果更佳。
 
-## 算法
-
 ### LeetCode
 
 LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
@@ -185,21 +183,19 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 | 多重背包 | [多重背包](src/main/java/algorithm/knapsack/Problem03.java) |
 | 背包模板 | [背包模板](src/main/java/algorithm/knapsack/Problem04.java) |
 
-### 算法笔记
+### **算法笔记**
 
-红黑树: [红黑树](src/main/java/algorithm/RedBlackTree.md)
+| 类型   | 题目                                                      |
+|:----:| ------------------------------------------------------- |
+| 红黑树 | [红黑树](src/main/java/algorithm/RedBlackTree.md) |
+| 最长公共子序列 | [最长公共子序列](src/main/java/algorithm/最长公共子序列.md) |
+| 常见排序算法 | [常见排序算法](src/main/java/algorithm/MySort.java) |
+| TOP-K问题 | [TOP-K问题](src/main/java/algorithm/TopK.java) |
+| 二叉树遍历递归与非递归 | [二叉树遍历递归与非递归](src/main/java/algorithm/TreeVisit.java) |
+| 将字符串转换为数字 | [将字符串转换为数字](src/main/java/algorithm/StrToNumber.java) |
 
-最长公共子序列: [最长公共子序列](src/main/java/algorithm/最长公共子序列.md)
 
-常见排序算法: [常见排序算法](src/main/java/algorithm/MySort.java)
-
-TOP-K问题: [常见TOP-K问题](/src/main/java/algorithm/TopK.java)
-
-二叉树遍历递归与非递归: [二叉树遍历递归与非递归](/src/main/java/algorithm/TreeVisit.java)
-
-将字符串转换为数字: [将字符串转换为数字](/src/main/java/algorithm/StrToNumber.java)
-
-#### **剑指offer(第二版)**
+### **剑指offer(第二版)**
 
 | 题号   | 题目                                                      |
 |:----:| ------------------------------------------------------- |
