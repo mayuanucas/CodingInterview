@@ -199,6 +199,8 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 
 | 题号   | 题目                                                      |
 |:----:| ------------------------------------------------------- |
+| 056 | [数组中只出现一次的两个数字](/src/main/java/algorithm/sfo/cpt06/Solution056.java) |
+| 056-2 | [数组中只出现一次的数字,其它数字均出现三次](/src/main/java/algorithm/sfo/cpt06/Solution05602.java) |
 | 063 | [股票的最大利润](/src/main/java/algorithm/sfo/cpt06/Solution063.java) |
 
 ### [51nod](http://www.51nod.com/)
