@@ -1,8 +1,8 @@
-package algorithm;
+package algorithm.note;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc:  实现字符串到数字的解析
  * @date: 2018/09/24
  */
 public class StrToNumber {

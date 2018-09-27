@@ -187,12 +187,12 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 
 | 类型   | 题目                                                      |
 |:----:| ------------------------------------------------------- |
-| 红黑树 | [红黑树](src/main/java/algorithm/RedBlackTree.md) |
-| 最长公共子序列 | [最长公共子序列](src/main/java/algorithm/最长公共子序列.md) |
-| 常见排序算法 | [常见排序算法](src/main/java/algorithm/MySort.java) |
-| TOP-K问题 | [TOP-K问题](src/main/java/algorithm/TopK.java) |
-| 二叉树遍历递归与非递归 | [二叉树遍历递归与非递归](src/main/java/algorithm/TreeVisit.java) |
-| 将字符串转换为数字 | [将字符串转换为数字](src/main/java/algorithm/StrToNumber.java) |
+| 红黑树 | [红黑树](src/main/java/algorithm/note/RedBlackTree.md) |
+| 最长公共子序列 | [最长公共子序列](src/main/java/algorithm/note/最长公共子序列.md) |
+| 常见排序算法 | [常见排序算法](src/main/java/algorithm/note/MySort.java) |
+| TOP-K问题 | [TOP-K问题](src/main/java/algorithm/note/TopK.java) |
+| 二叉树遍历递归与非递归 | [二叉树遍历递归与非递归](src/main/java/algorithm/note/TreeVisit.java) |
+| 将字符串转换为数字 | [将字符串转换为数字](src/main/java/algorithm/note/StrToNumber.java) |
 
 
 ### **剑指offer(第二版)**

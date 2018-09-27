@@ -1,13 +1,10 @@
 # 算法(第四版)
 
-> 此项目建议搭配[Code tree for GitHub](https://github.com/buunguyen/octotree)效果更佳。
-
 ## 第一章(基础)
 
 | 编号 | 内容 |
 | --- | --- |
 | 001 | 测试 |
-| 002 | 测试 |
 
 
 ## 第二章(排序)

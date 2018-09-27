@@ -1,11 +1,11 @@
-package algorithm.linkedlist;
+package algorithm.note;
 
 /**
  * @author: mayuan
  * @desc: 反转单链表
  * @date: 2018/09/04
  */
-public class Reverse {
+public class ReverseLinkedList {
     public static void main(String[] args) {
         Node node3 = new Node(3, null);
         Node node2 = new Node(2, node3);

@@ -1,11 +1,11 @@
-package algorithm;
+package algorithm.note;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc:  二叉树的遍历问题
  * @date: 2018/09/03
  */
 public class TreeVisit {
