@@ -1,24 +1,11 @@
 package algorithm.leetcode;
 
-import util.MyUtil;
-
 /**
  * @author: mayuan
  * @desc:
  * @date: 2018/08/06
  */
 public class Solution048 {
-
-    public static void main(String[] args) {
-        int[][] matrix1 = new int[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-        MyUtil.print(matrix1);
-        System.out.println("*********************");
-
-        new Solution048().rotate(matrix1);
-        MyUtil.print(matrix1);
-
-    }
-
 
     /**
      * 1. 沿主对角线反转
