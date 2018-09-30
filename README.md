@@ -194,6 +194,11 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 | 二叉树遍历递归与非递归 | [二叉树遍历递归与非递归](src/main/java/algorithm/note/TreeVisit.java) |
 | 将字符串转换为数字 | [将字符串转换为数字](src/main/java/algorithm/note/StrToNumber.java) |
 
+### **读书**
+
+| 类型   | 链接                                                      |
+|:----:| ------------------------------------------------------- |
+| 算法(第四版) | [算法(第四版)](src/main/java/algorithm/alg4) |
 
 ### **剑指offer(第二版)**
 
