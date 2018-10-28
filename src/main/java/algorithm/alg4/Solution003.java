@@ -3,15 +3,9 @@ package algorithm.alg4;
 /**
  * @author: mayuan
  * @desc:
- * @date: 2018/09/30
+ * @date: 2018/10/28
  */
-public class MyUtil {
-
-    public static void main(String[] args) {
-        System.out.println(isPrime(2));
-        System.out.println(isPrime(3));
-        System.out.println(isPrime(4));
-    }
+public class Solution003 {
 
     /**
      * 判断一个数是不是素数
