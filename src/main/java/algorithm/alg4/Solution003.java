@@ -7,6 +7,12 @@ package algorithm.alg4;
  */
 public class Solution003 {
 
+    public static void main(String[] args) {
+        System.out.println("3是素数吗? " + isPrime(3));
+        System.out.println("4是素数吗? " + isPrime(4));
+        System.out.println("11是素数吗? " + isPrime(11));
+    }
+
     /**
      * 判断一个数是不是素数
      *
