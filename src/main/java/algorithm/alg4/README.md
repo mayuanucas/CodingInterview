@@ -8,6 +8,7 @@
 | 002 | [二分查找的递归实现](Solution002.java) |
 | 003 | [判断是否是素数](Solution003.java) |
 | 004 | [判断回文字符串](Solution004.java) |
+| 005 | [双栈算术表达式求值](Solution005.java) |
 
 ## 第二章(排序)
 
