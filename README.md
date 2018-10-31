@@ -174,6 +174,12 @@ LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
 |:---:|:----------------------------------------------------------- |:---:|
 | 208 | [实现 Trie (前缀树)](src/main/java/algorithm/leetcode/Trie.java) | 中等  |
 
+#### **链表**
+
+| 题号  | 题目                                                          | 难度  |
+|:---:|:----------------------------------------------------------- |:---:|
+| 234 | [回文链表](src/main/java/algorithm/leetcode/Solution234.java) | 中等  |
+
 #### **背包问题**
 
 | 类型   | 题目                                                      |
