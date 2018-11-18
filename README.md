@@ -2,9 +2,26 @@
 
 > 此项目建议搭配[Code tree for GitHub](https://github.com/buunguyen/octotree)效果更佳。
 
-### LeetCode
+> 环境说明: Java8 + IDEA + MAC
 
-LeetCode 解题记录: [LeetCode解题](src/main/java/algorithm/leetcode)
+## LeetCode
+
+LeetCode 解题记录-源代码: [LeetCode解题](src/main/java/algorithm/leetcode)
+
+### 1.按题目顺序
+
+| 题号  | 题目                                                                    | 难度  |
+|:---:|:--------------------------------------------------------------------- |:---:|
+| 001  | [两数之和](src/main/java/algorithm/leetcode/Solution001.java) | 简单 |
+
+### 2.按题目类型
+
+#### **哈希表**
+
+| 题号  | 题目                                                                    | 难度  |
+|:---:|:--------------------------------------------------------------------- |:---:|
+| 001  | [两数之和](src/main/java/algorithm/leetcode/Solution001.java) | 简单 |
+
 
 #### **双指针**
 
