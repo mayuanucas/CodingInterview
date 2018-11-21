@@ -230,6 +230,7 @@ LeetCode 解题记录-源代码: [LeetCode解题](src/main/java/algorithm/leetco
 | 1-1 | [字符串的旋转](src/main/java/algorithm/tmop/Solution001.java) |
 | 1-1-1 | [单词翻转](src/main/java/algorithm/tmop/Solution002.java) |
 | 1-2 | [字符串的包含](src/main/java/algorithm/tmop/Solution003.java) |
+| 1-3 | [字符串的全排列](src/main/java/algorithm/tmop/Solution004.java) |
 
 ### **剑指offer(第二版)**
 
