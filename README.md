@@ -13,6 +13,7 @@ LeetCode 解题记录-源代码: [LeetCode解题](src/main/java/algorithm/leetco
 | 题号  | 题目                                                                    | 难度  |
 |:---:|:--------------------------------------------------------------------- |:---:|
 | 001  | [两数之和](src/main/java/algorithm/leetcode/Solution001.java) | 简单 |
+| 206  | [反转链表](src/main/java/algorithm/leetcode/Solution206.java) | 简单 |
 
 ### 2.按题目类型
 
@@ -195,6 +196,7 @@ LeetCode 解题记录-源代码: [LeetCode解题](src/main/java/algorithm/leetco
 
 | 题号  | 题目                                                          | 难度  |
 |:---:|:----------------------------------------------------------- |:---:|
+| 206 | [反转链表](src/main/java/algorithm/leetcode/Solution206.java) | 简单  |
 | 234 | [回文链表](src/main/java/algorithm/leetcode/Solution234.java) | 中等  |
 
 #### **背包问题**
