@@ -42,7 +42,7 @@ public class Solution007 {
      */
     public static boolean isPalindrome(ListNode head) {
         if (null == head) {
-            return false;
+            return true;
         }
 
         int lengthOfList = 0;
