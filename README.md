@@ -236,6 +236,7 @@ LeetCode 解题记录-源代码: [LeetCode解题](src/main/java/algorithm/leetco
 | 1-4 | [字符串转换成整数](src/main/java/algorithm/tmop/Solution005.java) |
 | 1-5 | [回文判断](src/main/java/algorithm/tmop/Solution006.java) |
 | 1-5-1 | [判断单链表是否为回文](src/main/java/algorithm/tmop/Solution007.java) |
+| 1-6 | [最长回文子串](src/main/java/algorithm/tmop/Solution008.java) |
 
 ### **剑指offer(第二版)**
 
