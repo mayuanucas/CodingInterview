@@ -13,6 +13,7 @@ public class Solution008 {
         final String text1 = "aba12";
 
         System.out.println(longestPalindromeSubstring(text1));
+        System.out.println(longestPalindrome(text1));
     }
 
     public static int longestPalindromeSubstring(String text) {
@@ -65,5 +66,37 @@ public class Solution008 {
         }
         stringBuilder.append("^");
         return stringBuilder.toString();
+    }
+
+    /**
+     * 动态规划求解最长回文子串
+     * dp(i, j) 表示 s(i ... j) 是一个回文子串, dp(i, j) 为 true 当 s(i) 等于 s(j) ,并且 s(i+1 ... j-1) 也是一个回文子串.
+     * 当发现一个回文子串时, 检查它的长度是否为最长.
+     * 时间复杂度: O(n^2)
+     * 空间复杂度: O(n^2)
+     *
+     * @param s
+     * @return
+     */
+    public static String longestPalindrome(String s) {
+        if (null == s || 0 >= s.length()) {
+            return null;
+        }
+
+        int n = s.length();
+        boolean[][] dp = new boolean[n][n];
+        String ans = null;
+
+        for (int i = n - 1; i >= 0; --i) {
+            for (int j = i; j < n; ++j) {
+                dp[i][j] = (s.charAt(i) == s.charAt(j)) && (j - i <= 2 || dp[i + 1][j - 1]);
+
+                if (dp[i][j] && (null == ans || ans.length() < j - i + 1)) {
+                    ans = s.substring(i, j + 1);
+                }
+            }
+        }
+
+        return ans;
     }
 }
