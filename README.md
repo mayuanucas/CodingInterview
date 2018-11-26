@@ -237,6 +237,7 @@ LeetCode 解题记录-源代码: [LeetCode解题](src/main/java/algorithm/leetco
 | 1-5 | [回文判断](src/main/java/algorithm/tmop/Solution006.java) |
 | 1-5-1 | [判断单链表是否为回文](src/main/java/algorithm/tmop/Solution007.java) |
 | 1-6 | [最长回文子串](src/main/java/algorithm/tmop/Solution008.java) |
+| 2-2 | [寻找和为定值的两个数](src/main/java/algorithm/tmop/Solution009.java) |
 
 ### **剑指offer(第二版)**
 
