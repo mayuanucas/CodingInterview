@@ -241,6 +241,7 @@ LeetCode 解题记录-源代码: [LeetCode解题](src/main/java/algorithm/leetco
 | 2-3 | [寻找和为定值的多个数](src/main/java/algorithm/tmop/Solution010.java) |
 | 2-4 | [最大连续子数组和](src/main/java/algorithm/tmop/Solution011.java) |
 | 2-5 | [跳台阶问题](src/main/java/algorithm/tmop/Solution012.java) |
+| 2-6 | [奇偶数排序](src/main/java/algorithm/tmop/Solution013.java) |
 
 ### **剑指offer(第二版)**
 
