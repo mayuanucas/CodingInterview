@@ -14,6 +14,7 @@ LeetCode 解题记录-源代码: [LeetCode解题](src/main/java/algorithm/leetco
 |:---:|:--------------------------------------------------------------------- |:---:|
 | 001  | [两数之和](src/main/java/algorithm/leetcode/Solution001.java) | 简单 |
 | 206  | [反转链表](src/main/java/algorithm/leetcode/Solution206.java) | 简单 |
+| 235  | [二叉搜索树的最近公共祖先](src/main/java/algorithm/leetcode/Solution235.java) | 简单 |
 
 ### 2.按题目类型
 
@@ -161,6 +162,15 @@ LeetCode 解题记录-源代码: [LeetCode解题](src/main/java/algorithm/leetco
 | 376 | [最长摆动子序列](src/main/java/algorithm/leetcode/Solution376.java)       | 中等  |
 | 646 | [一组整数对能够构成的最长链](src/main/java/algorithm/leetcode/Solution646.java) | 中等  |
 
+#### **背包问题**
+
+| 类型   | 题目                                                      |
+|:----:| ------------------------------------------------------- |
+| 01背包 | [01背包](src/main/java/algorithm/knapsack/Problem01.java) |
+| 完全背包 | [完全背包](src/main/java/algorithm/knapsack/Problem02.java) |
+| 多重背包 | [多重背包](src/main/java/algorithm/knapsack/Problem03.java) |
+| 背包模板 | [背包模板](src/main/java/algorithm/knapsack/Problem04.java) |
+
 ##### **0-1背包问题**
 
 | 题号  | 题目                                                          | 难度  |
@@ -186,6 +196,12 @@ LeetCode 解题记录-源代码: [LeetCode解题](src/main/java/algorithm/leetco
 |:---:|:--------------------------------------------------------- |:---:|
 | 048 | [旋转图像](src/main/java/algorithm/leetcode/Solution048.java) | 中等  |
 
+#### **树**
+
+| 题号  | 题目                                                          | 难度  |
+|:---:|:----------------------------------------------------------- |:---:|
+| 235 | [二叉搜索树的最近公共祖先](src/main/java/algorithm/leetcode/Solution235.java) | 简单  |
+
 #### **字典树**
 
 | 题号  | 题目                                                          | 难度  |
@@ -198,15 +214,6 @@ LeetCode 解题记录-源代码: [LeetCode解题](src/main/java/algorithm/leetco
 |:---:|:----------------------------------------------------------- |:---:|
 | 206 | [反转链表](src/main/java/algorithm/leetcode/Solution206.java) | 简单  |
 | 234 | [回文链表](src/main/java/algorithm/leetcode/Solution234.java) | 中等  |
-
-#### **背包问题**
-
-| 类型   | 题目                                                      |
-|:----:| ------------------------------------------------------- |
-| 01背包 | [01背包](src/main/java/algorithm/knapsack/Problem01.java) |
-| 完全背包 | [完全背包](src/main/java/algorithm/knapsack/Problem02.java) |
-| 多重背包 | [多重背包](src/main/java/algorithm/knapsack/Problem03.java) |
-| 背包模板 | [背包模板](src/main/java/algorithm/knapsack/Problem04.java) |
 
 ### **算法笔记**
 
