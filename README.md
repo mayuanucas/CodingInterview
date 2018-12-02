@@ -2,11 +2,9 @@
 
 > 此项目建议搭配[Code tree for GitHub](https://github.com/buunguyen/octotree)效果更佳。
 
-> 环境说明: Java8 + IDEA + MAC
+> 环境说明: Java8
 
 ## LeetCode
-
-LeetCode 解题记录-源代码: [LeetCode解题](src/main/java/algorithm/leetcode)
 
 ### 1.按题目顺序
 
@@ -227,6 +225,7 @@ LeetCode 解题记录-源代码: [LeetCode解题](src/main/java/algorithm/leetco
 | TOP-K问题 | [TOP-K问题](src/main/java/algorithm/note/TopK.java) |
 | 二叉树遍历递归与非递归 | [二叉树遍历递归与非递归](src/main/java/algorithm/note/TreeVisit.java) |
 | 将字符串转换为数字 | [将字符串转换为数字](src/main/java/algorithm/note/StrToNumber.java) |
+| LRU算法 | [LRU算法](src/main/java/algorithm/note/StrToNumber.java) |
 
 ### **读书**
 
@@ -256,7 +255,7 @@ LeetCode 解题记录-源代码: [LeetCode解题](src/main/java/algorithm/leetco
 | 2-9 | [完美洗牌算法](src/main/java/algorithm/tmop/Solution016.java) |
 | 3-3 | [二叉树的最近公共祖先](src/main/java/algorithm/tmop/Solution017.java) |
 
-### **剑指offer(第二版)**e
+### **剑指offer(第二版)**
 
 | 题号   | 题目                                                      |
 |:----:| ------------------------------------------------------- |
