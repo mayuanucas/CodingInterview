@@ -15,6 +15,7 @@ LeetCode 解题记录-源代码: [LeetCode解题](src/main/java/algorithm/leetco
 | 001  | [两数之和](src/main/java/algorithm/leetcode/Solution001.java) | 简单 |
 | 206  | [反转链表](src/main/java/algorithm/leetcode/Solution206.java) | 简单 |
 | 235  | [二叉搜索树的最近公共祖先](src/main/java/algorithm/leetcode/Solution235.java) | 简单 |
+| 236  | [二叉树的最近公共祖先](src/main/java/algorithm/leetcode/Solution236.java) | 中等 |
 
 ### 2.按题目类型
 
@@ -201,6 +202,7 @@ LeetCode 解题记录-源代码: [LeetCode解题](src/main/java/algorithm/leetco
 | 题号  | 题目                                                          | 难度  |
 |:---:|:----------------------------------------------------------- |:---:|
 | 235 | [二叉搜索树的最近公共祖先](src/main/java/algorithm/leetcode/Solution235.java) | 简单  |
+| 236 | [二叉树的最近公共祖先](src/main/java/algorithm/leetcode/Solution236.java) | 中等  |
 
 #### **字典树**
 
