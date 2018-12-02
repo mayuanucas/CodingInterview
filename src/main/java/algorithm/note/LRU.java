@@ -1,4 +1,4 @@
-package design;
+package algorithm.note;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
