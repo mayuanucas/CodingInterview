@@ -226,6 +226,7 @@
 | 二叉树遍历递归与非递归 | [二叉树遍历递归与非递归](src/main/java/algorithm/note/TreeVisit.java) |
 | 将字符串转换为数字 | [将字符串转换为数字](src/main/java/algorithm/note/StrToNumber.java) |
 | LRU算法 | [LRU算法](src/main/java/algorithm/note/StrToNumber.java) |
+| 双栈算术表达式求值 | [双栈算术表达式求值](src/main/java/algorithm/alg4/Solution005.java) |
 
 ### **读书**
 
