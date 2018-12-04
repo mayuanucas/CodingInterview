@@ -3,7 +3,7 @@ package algorithm.tmop;
 /**
  * @author: mayuan
  * @desc: 行列递增矩阵的查找
- * 时间复杂度: O(n)
+ * 时间复杂度: O(m+n)
  * 空间复杂度: O(1)
  * @date:
  */

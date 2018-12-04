@@ -257,6 +257,7 @@
 | 3-3 | [二叉树的最近公共祖先](src/main/java/algorithm/tmop/Solution017.java) |
 | 4-1 | [有序数组的查找](src/main/java/algorithm/tmop/Solution018.java) |
 | 4-2 | [行列递增矩阵的查找](src/main/java/algorithm/tmop/Solution019.java) |
+| 4-3 | [出现次数超过一半的数](src/main/java/algorithm/tmop/Solution020.java) |
 
 ### **剑指offer(第二版)**
 
