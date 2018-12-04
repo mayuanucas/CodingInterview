@@ -256,6 +256,7 @@
 | 2-9 | [完美洗牌算法](src/main/java/algorithm/tmop/Solution016.java) |
 | 3-3 | [二叉树的最近公共祖先](src/main/java/algorithm/tmop/Solution017.java) |
 | 4-1 | [有序数组的查找](src/main/java/algorithm/tmop/Solution018.java) |
+| 4-2 | [行列递增矩阵的查找](src/main/java/algorithm/tmop/Solution019.java) |
 
 ### **剑指offer(第二版)**
 
