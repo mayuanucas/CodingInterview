@@ -258,6 +258,7 @@
 | 4-1 | [有序数组的查找](src/main/java/algorithm/tmop/Solution018.java) |
 | 4-2 | [行列递增矩阵的查找](src/main/java/algorithm/tmop/Solution019.java) |
 | 4-3 | [出现次数超过一半的数](src/main/java/algorithm/tmop/Solution020.java) |
+| 5-1 | [最大连续乘积子数组](src/main/java/algorithm/tmop/Solution021.java) |
 
 ### **剑指offer(第二版)**
 
