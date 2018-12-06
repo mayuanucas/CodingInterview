@@ -161,15 +161,6 @@
 | 376 | [最长摆动子序列](src/main/java/algorithm/leetcode/Solution376.java)       | 中等  |
 | 646 | [一组整数对能够构成的最长链](src/main/java/algorithm/leetcode/Solution646.java) | 中等  |
 
-#### **背包问题**
-
-| 类型   | 题目                                                      |
-|:----:| ------------------------------------------------------- |
-| 01背包 | [01背包](src/main/java/algorithm/knapsack/Problem01.java) |
-| 完全背包 | [完全背包](src/main/java/algorithm/knapsack/Problem02.java) |
-| 多重背包 | [多重背包](src/main/java/algorithm/knapsack/Problem03.java) |
-| 背包模板 | [背包模板](src/main/java/algorithm/knapsack/Problem04.java) |
-
 ##### **0-1背包问题**
 
 | 题号  | 题目                                                          | 难度  |
@@ -219,52 +210,25 @@
 
 | 类型   | 题目                                                      |
 |:----:| ------------------------------------------------------- |
-| 红黑树 | [红黑树](src/main/java/algorithm/note/RedBlackTree.md) |
-| 最长公共子序列 | [最长公共子序列](src/main/java/algorithm/note/最长公共子序列.md) |
-| 常见排序算法 | [常见排序算法](src/main/java/algorithm/note/MySort.java) |
-| TOP-K问题 | [TOP-K问题](src/main/java/algorithm/note/TopK.java) |
-| 二叉树遍历递归与非递归 | [二叉树遍历递归与非递归](src/main/java/algorithm/note/TreeVisit.java) |
-| 将字符串转换为数字 | [将字符串转换为数字](src/main/java/algorithm/note/StrToNumber.java) |
+| 栈 | [双栈算术表达式求值](src/main/java/algorithm/alg4/Solution005.java) |
+| 字符串 | [将字符串转换为数字](src/main/java/algorithm/note/StrToNumber.java) |
 | LRU算法 | [LRU算法](src/main/java/algorithm/note/StrToNumber.java) |
-| 双栈算术表达式求值 | [双栈算术表达式求值](src/main/java/algorithm/alg4/Solution005.java) |
+| 排序 | [常见排序算法](src/main/java/algorithm/note/MySort.java) |
+| TOP-K问题 | [TOP-K问题](src/main/java/algorithm/note/TopK.java) |
+| 背包问题 | [01背包](src/main/java/algorithm/knapsack/Problem01.java) |
+| 背包问题 | [完全背包](src/main/java/algorithm/knapsack/Problem02.java) |
+| 背包问题 | [多重背包](src/main/java/algorithm/knapsack/Problem03.java) |
+| 背包问题 | [背包模板](src/main/java/algorithm/knapsack/Problem04.java) |
+| 二叉树 | [二叉树遍历递归与非递归](src/main/java/algorithm/note/TreeVisit.java) |
+| 红黑树 | [红黑树](src/main/java/algorithm/note/RedBlackTree.md) |
+| 动态规划 | [最长公共子序列](src/main/java/algorithm/note/最长公共子序列.md) |
 
-### **读书**
 
-| 类型   | 链接                                                      |
-|:----:| ------------------------------------------------------- |
-| 算法(第四版) | [算法(第四版)](src/main/java/algorithm/alg4) |
+### **读书笔记**
 
-### **编程之法**
+| 类型   | 链接                                                      | 推荐指数 |
+|:----:| ------------------------------------------------------- |------|
+| 编程之法 | [编程之法](src/main/java/algorithm/tmop) | ⭐️⭐️ |
+| 算法(第四版) | [算法(第四版)](src/main/java/algorithm/alg4) | ⭐️⭐️⭐️⭐️ |
+| 剑指offer(第二版) | [剑指offer(第二版)](src/main/java/algorithm/sfo) | ⭐️⭐️⭐️⭐️⭐️ |
 
-| 题号   | 题目                                                      |
-|:----:| ------------------------------------------------------- |
-| 1-1 | [字符串的旋转](src/main/java/algorithm/tmop/Solution001.java) |
-| 1-1-1 | [单词翻转](src/main/java/algorithm/tmop/Solution002.java) |
-| 1-2 | [字符串的包含](src/main/java/algorithm/tmop/Solution003.java) |
-| 1-3 | [字符串的全排列](src/main/java/algorithm/tmop/Solution004.java) |
-| 1-4 | [字符串转换成整数](src/main/java/algorithm/tmop/Solution005.java) |
-| 1-5 | [回文判断](src/main/java/algorithm/tmop/Solution006.java) |
-| 1-5-1 | [判断单链表是否为回文](src/main/java/algorithm/tmop/Solution007.java) |
-| 1-6 | [最长回文子串](src/main/java/algorithm/tmop/Solution008.java) |
-| 2-2 | [寻找和为定值的两个数](src/main/java/algorithm/tmop/Solution009.java) |
-| 2-3 | [寻找和为定值的多个数](src/main/java/algorithm/tmop/Solution010.java) |
-| 2-4 | [最大连续子数组和](src/main/java/algorithm/tmop/Solution011.java) |
-| 2-5 | [跳台阶问题](src/main/java/algorithm/tmop/Solution012.java) |
-| 2-6 | [奇偶数排序](src/main/java/algorithm/tmop/Solution013.java) |
-| 2-7 | [荷兰国旗问题](src/main/java/algorithm/tmop/Solution014.java) |
-| 2-8 | [矩阵乘法](src/main/java/algorithm/tmop/Solution015.java) |
-| 2-9 | [完美洗牌算法](src/main/java/algorithm/tmop/Solution016.java) |
-| 3-3 | [二叉树的最近公共祖先](src/main/java/algorithm/tmop/Solution017.java) |
-| 4-1 | [有序数组的查找](src/main/java/algorithm/tmop/Solution018.java) |
-| 4-2 | [行列递增矩阵的查找](src/main/java/algorithm/tmop/Solution019.java) |
-| 4-3 | [出现次数超过一半的数](src/main/java/algorithm/tmop/Solution020.java) |
-| 5-1 | [最大连续乘积子数组](src/main/java/algorithm/tmop/Solution021.java) |
-| 5-2 | [字符串编辑距离](src/main/java/algorithm/tmop/Solution022.java) |
-
-### **剑指offer(第二版)**
-
-| 题号   | 题目                                                      |
-|:----:| ------------------------------------------------------- |
-| 056 | [数组中只出现一次的两个数字](/src/main/java/algorithm/sfo/cpt06/Solution056.java) |
-| 056-2 | [数组中只出现一次的数字,其它数字均出现三次](/src/main/java/algorithm/sfo/cpt06/Solution05602.java) |
-| 063 | [股票的最大利润](/src/main/java/algorithm/sfo/cpt06/Solution063.java) |
