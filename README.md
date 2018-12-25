@@ -14,6 +14,7 @@
 | 206  | [反转链表](src/main/java/algorithm/leetcode/Solution206.java) | 简单 |
 | 235  | [二叉搜索树的最近公共祖先](src/main/java/algorithm/leetcode/Solution235.java) | 简单 |
 | 236  | [二叉树的最近公共祖先](src/main/java/algorithm/leetcode/Solution236.java) | 中等 |
+| 859  | [亲密字符串](src/main/java/algorithm/leetcode/Solution859.java) | 中等 |
 
 ### 2.按题目类型
 
@@ -212,6 +213,7 @@
 |:----:| ------------------------------------------------------- |
 | 栈 | [双栈算术表达式求值](src/main/java/algorithm/alg4/Solution005.java) |
 | 字符串 | [将字符串转换为数字](src/main/java/algorithm/note/StrToNumber.java) |
+| 字符串 | [kmp算法实现](src/main/java/algorithm/note/KMP.java) |
 | LRU算法 | [LRU算法](src/main/java/algorithm/note/StrToNumber.java) |
 | 排序 | [常见排序算法](src/main/java/algorithm/note/MySort.java) |
 | TOP-K问题 | [TOP-K问题](src/main/java/algorithm/note/TopK.java) |
