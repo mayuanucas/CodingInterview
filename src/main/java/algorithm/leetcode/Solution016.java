@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 最接近的三数之和
  * @date: 2018/07/11
  */
 public class Solution016 {
@@ -30,9 +30,9 @@ public class Solution016 {
             while (left < right) {
                 int sum = nums[i] + nums[left] + nums[right];
                 if (sum > target) {
-                    right--;
+                    --right;
                 } else if (sum < target) {
-                    left++;
+                    ++left;
                 } else {
                     ans = sum;
                     return ans;

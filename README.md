@@ -15,6 +15,7 @@
 | 003  | 字符串、哈希表、双指针 | [无重复字符的最长子串](src/main/java/algorithm/leetcode/Solution003.java) | 中等 |
 | 011  | 数组、双指针 | [盛最多水的容器](src/main/java/algorithm/leetcode/Solution011.java) | 中等 |
 | 015  | 数组、双指针 | [三数之和](src/main/java/algorithm/leetcode/Solution015.java) | 中等 |
+| 016  | 数组、双指针 | [最接近的三数之和](src/main/java/algorithm/leetcode/Solution016.java) | 中等 |
 | 018  | 数组、哈希表、双指针 | [四数之和](src/main/java/algorithm/leetcode/Solution018.java) | 中等 |
 | 206  |  | [反转链表](src/main/java/algorithm/leetcode/Solution206.java) | 简单 |
 | 235  |              | [二叉搜索树的最近公共祖先](src/main/java/algorithm/leetcode/Solution235.java) | 简单 |
