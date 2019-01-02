@@ -2,31 +2,38 @@ package algorithm.leetcode;
 
 /**
  * @author mayuan
- * @desc
+ * @desc 两数相加
+ * 时间复杂度: O(n) 或 O(m) n,m为两个链表的长度,取最大的
+ * 空间复杂度: O(1)
  * @date 2018/02/07
  */
 public class Solution002 {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode head = new ListNode(0);
-        ListNode tempL1 = l1, tempL2 = l2, current = head;
+        ListNode p = l1, q = l2, current = head;
         int carry = 0;
 
-        while (null != tempL1 || null != tempL2) {
-            int x = (null != tempL1) ? tempL1.val : 0;
-            int y = (null != tempL2) ? tempL2.val : 0;
+        while (null != p || null != q) {
+            int x = (null != p) ? p.val : 0;
+            int y = (null != q) ? q.val : 0;
             int sum = carry + x + y;
 
-            carry = sum / 10;
+            if (10 <= sum) {
+                carry = 1;
+                sum -= 10;
+            } else {
+                carry = 0;
+            }
 
-            current.next = new ListNode(sum % 10);
+            current.next = new ListNode(sum);
             current = current.next;
 
-            if (null != tempL1){
-                tempL1 = tempL1.next;
+            if (null != p) {
+                p = p.next;
             }
-            if (null != tempL2){
-                tempL2 = tempL2.next;
+            if (null != q) {
+                q = q.next;
             }
         }
 
@@ -37,7 +44,7 @@ public class Solution002 {
         return head.next;
     }
 
-    public static class ListNode {
+    private static class ListNode {
         int val;
         ListNode next;
 
