@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 无重复字符的最长子串
  * @date: 2018/06/24
  */
 public class Solution003 {
@@ -41,6 +41,24 @@ public class Solution003 {
 
             ans = Math.max(ans, end - start + 1);
             map.put(s.charAt(end), end);
+        }
+        return ans;
+    }
+
+    /**
+     * 采用滑动窗口的方式,求解问题
+     * [i, j) 左闭右开区间
+     * @param s
+     * @return
+     */
+    public int lengthOfLongestSubstring3(String s) {
+        int[] index = new int[128];
+        int ans = 0;
+
+        for (int j = 0, i = 0; j < s.length(); ++j, ++i) {
+            i = Math.max(index[s.charAt(j)], i);
+            ans = Math.max(ans, j - i + 1);
+            index[s.charAt(j)] = j + 1;
         }
         return ans;
     }
