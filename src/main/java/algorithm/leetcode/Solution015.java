@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 三数之和
  * @date: 2018/07/10
  */
 public class Solution015 {
@@ -41,23 +41,23 @@ public class Solution015 {
             while (begin < end) {
                 // nums[begin]和nums[begin-1]相等，避免重复
                 if (begin > i + 1 && nums[begin] == nums[begin - 1]) {
-                    begin++;
+                    ++begin;
                     continue;
                 }
                 // nums[end]和nums[end+1]相等，避免重复
                 if (end < nums.length - 1 && nums[end] == nums[end + 1]) {
-                    end--;
+                    --end;
                     continue;
                 }
 
                 int sum = nums[i] + nums[begin] + nums[end];
                 if (0 == sum) {
                     answer.add(Arrays.asList(nums[i], nums[begin], nums[end]));
-                    begin++;
+                    ++begin;
                 } else if (0 > sum) {
-                    begin++;
+                    ++begin;
                 } else {
-                    end--;
+                    --end;
                 }
             }
         }
