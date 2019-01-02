@@ -17,6 +17,7 @@
 | 015  | 数组、双指针 | [三数之和](src/main/java/algorithm/leetcode/Solution015.java) | 中等 |
 | 016  | 数组、双指针 | [最接近的三数之和](src/main/java/algorithm/leetcode/Solution016.java) | 中等 |
 | 018  | 数组、哈希表、双指针 | [四数之和](src/main/java/algorithm/leetcode/Solution018.java) | 中等 |
+| 019  | 链表、双指针 | [删除链表的倒数第N个节点](src/main/java/algorithm/leetcode/Solution019.java) | 中等 |
 | 026  | 数组、双指针 | [删除排序数组中的重复项](src/main/java/algorithm/leetcode/Solution026.java) | 简单 |
 | 206  |  | [反转链表](src/main/java/algorithm/leetcode/Solution206.java) | 简单 |
 | 235  |              | [二叉搜索树的最近公共祖先](src/main/java/algorithm/leetcode/Solution235.java) | 简单 |
