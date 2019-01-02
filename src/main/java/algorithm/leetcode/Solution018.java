@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 四数之和
  * @date: 2018/07/12
  */
 public class Solution018 {
@@ -31,9 +31,11 @@ public class Solution018 {
             if (i > 0 && nums[i] == nums[i - 1]) {
                 continue;
             }
+            // i指向的数字已经太大,没有满足情况的解
             if (nums[i] + nums[i + 1] + nums[i + 2] + nums[i + 3] > target) {
                 break;
             }
+            // i指向的数字太小,需要向右移动,指向下一个数字
             if (nums[i] + nums[n - 3] + nums[n - 2] + nums[n - 1] < target) {
                 continue;
             }
@@ -54,20 +56,21 @@ public class Solution018 {
                 while (left < right) {
                     int sum = nums[i] + nums[left] + nums[right] + nums[j];
                     if (sum > target) {
-                        right--;
+                        --right;
                     } else if (sum < target) {
-                        left++;
+                        ++left;
                     } else {
                         List<Integer> oneAnswer = Arrays.asList(nums[i], nums[left], nums[right], nums[j]);
                         ans.add(oneAnswer);
-                        // 必须先自增或自减一次
-                        do {
-                            left++;
-                        } while (left < right && nums[left - 1] == nums[left]);
+                        ++left;
+                        --right;
 
-                        do {
-                            right--;
-                        } while (left < right && nums[right] == nums[right + 1]);
+                        while (left < right && nums[left - 1] == nums[left]) {
+                            ++left;
+                        }
+                        while (left < right && nums[right] == nums[right + 1]) {
+                            --right;
+                        }
                     }
                 }
             }
