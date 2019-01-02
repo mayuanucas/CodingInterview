@@ -8,13 +8,13 @@
 
 ### 1.按题目顺序
 
-| 题号  | 题目                                                                    | 难度  |
-|:---:|:--------------------------------------------------------------------- |:---:|
-| 001  | [两数之和](src/main/java/algorithm/leetcode/Solution001.java) | 简单 |
-| 206  | [反转链表](src/main/java/algorithm/leetcode/Solution206.java) | 简单 |
-| 235  | [二叉搜索树的最近公共祖先](src/main/java/algorithm/leetcode/Solution235.java) | 简单 |
-| 236  | [二叉树的最近公共祖先](src/main/java/algorithm/leetcode/Solution236.java) | 中等 |
-| 859  | [亲密字符串](src/main/java/algorithm/leetcode/Solution859.java) | 中等 |
+| 题号  | 相关话题                                                                | 题目 | 难度 |
+|:---:|:--------------------------------------------------------------------: |:---:|:---:|
+| 001  | 数组、哈希表 | [两数之和](src/main/java/algorithm/leetcode/Solution001.java) | 简单 |
+| 206  |  | [反转链表](src/main/java/algorithm/leetcode/Solution206.java) | 简单 |
+| 235  |              | [二叉搜索树的最近公共祖先](src/main/java/algorithm/leetcode/Solution235.java) | 简单 |
+| 236  |  | [二叉树的最近公共祖先](src/main/java/algorithm/leetcode/Solution236.java) | 中等 |
+| 859  |              | [亲密字符串](src/main/java/algorithm/leetcode/Solution859.java) | 中等 |
 
 ### 2.按题目类型
 
