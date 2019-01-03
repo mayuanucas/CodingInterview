@@ -23,10 +23,10 @@
 | 028  | 字符串、双指针 | [实现strStr()](src/main/java/algorithm/leetcode/Solution028.java) | 简单 |
 | 061  | 链表、双指针 | [旋转链表](src/main/java/algorithm/leetcode/Solution061.java) | 中等 |
 | 080  | 数组、双指针 | [删除排序数组中的重复项 II](src/main/java/algorithm/leetcode/Solution080.java) | 中等 |
-| 206  |  | [反转链表](src/main/java/algorithm/leetcode/Solution206.java) | 简单 |
-| 235  |              | [二叉搜索树的最近公共祖先](src/main/java/algorithm/leetcode/Solution235.java) | 简单 |
-| 236  |  | [二叉树的最近公共祖先](src/main/java/algorithm/leetcode/Solution236.java) | 中等 |
-| 859  |              | [亲密字符串](src/main/java/algorithm/leetcode/Solution859.java) | 中等 |
+| 206  | 链表 | [反转链表](src/main/java/algorithm/leetcode/Solution206.java) | 简单 |
+| 235  | 树 | [二叉搜索树的最近公共祖先](src/main/java/algorithm/leetcode/Solution235.java) | 简单 |
+| 236  | 树 | [二叉树的最近公共祖先](src/main/java/algorithm/leetcode/Solution236.java) | 中等 |
+| 859  | 字符串 | [亲密字符串](src/main/java/algorithm/leetcode/Solution859.java) | 中等 |
 
 ### 2.按题目类型
 
