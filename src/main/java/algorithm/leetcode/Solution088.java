@@ -1,11 +1,8 @@
 package algorithm.leetcode;
 
-import java.util.Arrays;
-import java.util.stream.IntStream;
-
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 合并两个有序数组
  * @date: 2018/08/17
  */
 public class Solution088 {
