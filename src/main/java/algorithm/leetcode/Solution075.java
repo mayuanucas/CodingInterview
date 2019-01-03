@@ -2,7 +2,7 @@ package algorithm.leetcode;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 颜色分类
  * @date: 2018/08/18
  */
 public class Solution075 {
@@ -43,8 +43,8 @@ public class Solution075 {
     }
 
     private void swap(int[] nums, int i, int j) {
-        int temp = nums[i];
+        int tmp = nums[i];
         nums[i] = nums[j];
-        nums[j] = temp;
+        nums[j] = tmp;
     }
 }
