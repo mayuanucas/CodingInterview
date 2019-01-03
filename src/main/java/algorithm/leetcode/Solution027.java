@@ -2,20 +2,20 @@ package algorithm.leetcode;
 
 /**
  * @author mayuan
- * @desc
+ * @desc 移除元素
  * @date 2018/02/09
  */
 public class Solution027 {
 
     public int removeElement(int[] nums, int val) {
-        int begin = 0;
-        for (int i = 0; i < nums.length; ++i) {
-            if (nums[i] != val) {
-                nums[begin++] = nums[i];
+        // i指向存放元素的位置
+        int i = 0;
+        for(int e : nums){
+            if (e != val){
+                nums[i++] = e;
             }
         }
-
-        return begin;
+        return i;
     }
 
 }
