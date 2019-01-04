@@ -27,6 +27,7 @@
 | 086  | 链表、双指针 | [分隔链表](src/main/java/algorithm/leetcode/Solution086.java) | 中等 |
 | 088  | 数组、双指针 | [合并两个有序数组](src/main/java/algorithm/leetcode/Solution088.java) | 简单 |
 | 125  | 字符串、双指针 | [验证回文串](src/main/java/algorithm/leetcode/Solution125.java) | 简单 |
+| 141  | 链表、双指针 | [环形链表](src/main/java/algorithm/leetcode/Solution141.java) | 简单 |
 | 206  | 链表 | [反转链表](src/main/java/algorithm/leetcode/Solution206.java) | 简单 |
 | 235  | 树 | [二叉搜索树的最近公共祖先](src/main/java/algorithm/leetcode/Solution235.java) | 简单 |
 | 236  | 树 | [二叉树的最近公共祖先](src/main/java/algorithm/leetcode/Solution236.java) | 中等 |
