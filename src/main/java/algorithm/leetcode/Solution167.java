@@ -2,7 +2,7 @@ package algorithm.leetcode;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 两数之和 II - 输入有序数组
  * @date: 2018/08/17
  */
 public class Solution167 {
@@ -18,7 +18,7 @@ public class Solution167 {
 
     public int[] twoSum(int[] numbers, int target) {
         int[] answer = new int[2];
-        if (null == numbers || 0 >= numbers.length) {
+        if (null == numbers || 2 > numbers.length) {
             return answer;
         }
 
