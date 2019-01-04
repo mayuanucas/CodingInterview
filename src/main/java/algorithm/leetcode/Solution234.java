@@ -2,7 +2,7 @@ package algorithm.leetcode;
 
 /**
  * @author: mayuan
- * @desc: 判断链表是否为回文字符串
+ * @desc: 回文链表
  * @date: 2018/10/31
  */
 public class Solution234 {
@@ -29,16 +29,16 @@ public class Solution234 {
             return true;
         }
 
+        ListNode prev = null;
         ListNode slow = head;
         ListNode fast = head;
-        ListNode prev = null;
         while (null != fast && null != fast.next) {
             fast = fast.next.next;
 
-            ListNode temp = slow.next;
+            ListNode next = slow.next;
             slow.next = prev;
             prev = slow;
-            slow = temp;
+            slow = next;
         }
 
         // fast 指向第奇数个节点( fast不为null表示此时字符串长度为奇数)
