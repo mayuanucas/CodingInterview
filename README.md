@@ -36,6 +36,7 @@
 | 235  | 树 | [二叉搜索树的最近公共祖先](src/main/java/algorithm/leetcode/Solution235.java) | 简单 |
 | 236  | 树 | [二叉树的最近公共祖先](src/main/java/algorithm/leetcode/Solution236.java) | 中等 |
 | 283  | 数组、双指针 | [移动零](src/main/java/algorithm/leetcode/Solution283.java) | 简单 |
+| 287  | 数组、双指针、二分查找 | [寻找重复数](src/main/java/algorithm/leetcode/Solution287.java) | 中等 |
 | 344  | 字符串、双指针 | [反转字符串](src/main/java/algorithm/leetcode/Solution344.java) | 简单 |
 | 345  | 字符串、双指针 | [反转字符串中的元音字母](src/main/java/algorithm/leetcode/Solution345.java) | 简单 |
 | 859  | 字符串 | [亲密字符串](src/main/java/algorithm/leetcode/Solution859.java) | 中等 |
