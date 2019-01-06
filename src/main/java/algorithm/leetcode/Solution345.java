@@ -6,7 +6,7 @@ import java.util.Set;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 反转字符串中的元音字母
  * @date: 2018/08/17
  */
 public class Solution345 {
