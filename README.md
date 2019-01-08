@@ -40,6 +40,7 @@
 | 344  | 字符串、双指针 | [反转字符串](src/main/java/algorithm/leetcode/Solution344.java) | 简单 |
 | 345  | 字符串、双指针 | [反转字符串中的元音字母](src/main/java/algorithm/leetcode/Solution345.java) | 简单 |
 | 349  | 排序、哈希表、双指针、二分查找 | [两个数组的交集](src/main/java/algorithm/leetcode/Solution349.java) | 简单 |
+| 350  | 排序、哈希表、双指针、二分查找 | [两个数组的交集 II](src/main/java/algorithm/leetcode/Solution350.java) | 简单 |
 | 859  | 字符串 | [亲密字符串](src/main/java/algorithm/leetcode/Solution859.java) | 中等 |
 
 ### 2.按题目类型
