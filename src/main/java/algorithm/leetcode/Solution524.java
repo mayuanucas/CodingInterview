@@ -4,7 +4,7 @@ import java.util.List;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 通过删除字母匹配到字典里最长单词
  * @date: 2018/08/17
  */
 public class Solution524 {
@@ -30,7 +30,8 @@ public class Solution524 {
     }
 
     /**
-     * 判断 s 字符串中,从左到右是否全部包含 target 的字符集
+     * 判断 s 字符串中,是否全部包含 target 字符串(只能通过删除来得到target字符串)
+     * 则字符串具有相对顺序
      *
      * @param s
      * @param target
@@ -41,9 +42,11 @@ public class Solution524 {
 
         while (i < s.length() && j < target.length()) {
             if (s.charAt(i) == target.charAt(j)) {
+                ++i;
                 ++j;
+            } else {
+                ++i;
             }
-            ++i;
         }
         return target.length() == j;
     }
