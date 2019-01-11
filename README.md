@@ -45,6 +45,7 @@
 | 532  | 排序、双指针 | [数组中的K-diff数对](src/main/java/algorithm/leetcode/Solution532.java) | 简单 |
 | 567  | 双指针 | [字符串的排列](src/main/java/algorithm/leetcode/Solution567.java) | 中等 |
 | 713  | 数组、双指针 | [乘积小于K的子数组](src/main/java/algorithm/leetcode/Solution713.java) | 中等 |
+| 763  | 贪心算法、双指针 | [划分字母区间](src/main/java/algorithm/leetcode/Solution763.java) | 中等 |
 | 859  | 字符串 | [亲密字符串](src/main/java/algorithm/leetcode/Solution859.java) | 中等 |
 
 ### 2.按题目类型

@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 划分字母区间
  * @date: 2018/08/19
  */
 public class Solution763 {
@@ -17,28 +17,21 @@ public class Solution763 {
     }
 
     public List<Integer> partitionLabels(String S) {
-        int[] lastIndexOfChar = new int[26];
+        int[] map = new int[26];
         for (int i = 0; i < S.length(); ++i) {
-            lastIndexOfChar[charToIndex(S.charAt(i))] = i;
+            map[S.charAt(i) - 'a'] = i;
         }
 
         List<Integer> answer = new LinkedList<>();
-        int firstIndex = 0;
-        while (firstIndex < S.length()) {
-            int lastIndex = firstIndex;
-            for (int i = firstIndex; i <= lastIndex && i < S.length(); ++i) {
-                int index = lastIndexOfChar[charToIndex(S.charAt(i))];
-                if (index > lastIndex) {
-                    lastIndex = index;
-                }
+        int start = 0, last = 0;
+        for (int i = 0; i < S.length(); ++i) {
+            last = last > map[S.charAt(i) - 'a'] ? last : map[S.charAt(i) - 'a'];
+            if (last == i) {
+                answer.add(last - start + 1);
+                start = last + 1;
             }
-            answer.add(lastIndex - firstIndex + 1);
-            firstIndex = lastIndex + 1;
         }
         return answer;
     }
 
-    private int charToIndex(char c) {
-        return c - 'a';
-    }
 }
