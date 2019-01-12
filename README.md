@@ -52,7 +52,8 @@
 | 844  | 双指针 | [比较含退格的字符串](src/main/java/algorithm/leetcode/Solution844.java) | 简单 |
 | 845  | 双指针 | [数组中的最长山脉](src/main/java/algorithm/leetcode/Solution845.java) | 中等 |
 | 859  | 字符串 | [亲密字符串](src/main/java/algorithm/leetcode/Solution859.java) | 中等 |
-| 881  | 字符串 | [救生艇](src/main/java/algorithm/leetcode/Solution881.java) | 中等 |
+| 881  | 双指针 | [救生艇](src/main/java/algorithm/leetcode/Solution881.java) | 中等 |
+| 904  | 双指针 | [水果成篮](src/main/java/algorithm/leetcode/Solution904.java) | 中等 |
 
 ### 2.按题目类型
 
