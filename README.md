@@ -54,6 +54,7 @@
 | 859  | 字符串 | [亲密字符串](src/main/java/algorithm/leetcode/Solution859.java) | 中等 |
 | 881  | 双指针 | [救生艇](src/main/java/algorithm/leetcode/Solution881.java) | 中等 |
 | 904  | 双指针 | [水果成篮](src/main/java/algorithm/leetcode/Solution904.java) | 中等 |
+| 925  | 双指针、字符串 | [长按键入](src/main/java/algorithm/leetcode/Solution925.java) | 简单 |
 
 ### 2.按题目类型
 
