@@ -21,6 +21,7 @@
 | 026  | 数组、双指针 | [删除排序数组中的重复项](src/main/java/algorithm/leetcode/Solution026.java) | 简单 |
 | 027  | 数组、双指针 | [移除元素](src/main/java/algorithm/leetcode/Solution027.java) | 简单 |
 | 028  | 字符串、双指针 | [实现strStr()](src/main/java/algorithm/leetcode/Solution028.java) | 简单 |
+| 056  | 排序、数组 | [合并区间](src/main/java/algorithm/leetcode/Solution056.java) | 中等 |
 | 061  | 链表、双指针 | [旋转链表](src/main/java/algorithm/leetcode/Solution061.java) | 中等 |
 | 075  | 排序、数组、双指针 | [颜色分类](src/main/java/algorithm/leetcode/Solution075.java) | 中等 |
 | 080  | 数组、双指针 | [删除排序数组中的重复项 II](src/main/java/algorithm/leetcode/Solution080.java) | 中等 |
