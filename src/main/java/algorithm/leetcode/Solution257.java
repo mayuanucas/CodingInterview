@@ -77,14 +77,14 @@ public class Solution257 {
         }
         return stringBuilder.toString();
     }
-}
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
+    class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
 
-    public TreeNode(int x) {
-        this.val = x;
+        public TreeNode(int x) {
+            this.val = x;
+        }
     }
 }

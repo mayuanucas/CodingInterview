@@ -87,13 +87,13 @@ public class Solution212 {
 
         return root;
     }
-}
 
-class TrieNode {
-    TrieNode[] children;
-    String word;
+    class TrieNode {
+        TrieNode[] children;
+        String word;
 
-    public TrieNode() {
-        children = new TrieNode[26];
+        public TrieNode() {
+            children = new TrieNode[26];
+        }
     }
 }
