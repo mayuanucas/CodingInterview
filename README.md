@@ -32,6 +32,7 @@
 | 141  | 链表、双指针 | [环形链表](src/main/java/algorithm/leetcode/Solution141.java) | 简单 |
 | 142  | 链表、双指针 | [环形链表 II](src/main/java/algorithm/leetcode/Solution142.java) | 中等 |
 | 147  | 排序、链表 | [对链表进行插入排序](src/main/java/algorithm/leetcode/Solution147.java) | 中等 |
+| 148  | 排序、链表 | [排序链表](src/main/java/algorithm/leetcode/Solution148.java) | 中等 |
 | 167  | 数组、双指针、二分查找 | [两数之和 II - 输入有序数组](src/main/java/algorithm/leetcode/Solution167.java) | 简单 |
 | 206  | 链表 | [反转链表](src/main/java/algorithm/leetcode/Solution206.java) | 简单 |
 | 209  | 数组、双指针、二分查找 | [长度最小的子数组](src/main/java/algorithm/leetcode/Solution209.java) | 中等 |
