@@ -61,8 +61,9 @@
 | 859  | 字符串 | [亲密字符串](src/main/java/algorithm/leetcode/Solution859.java) | 中等 |
 | 881  | 双指针 | [救生艇](src/main/java/algorithm/leetcode/Solution881.java) | 中等 |
 | 904  | 双指针 | [水果成篮](src/main/java/algorithm/leetcode/Solution904.java) | 中等 |
-| 925  | 双指针、字符串 | [长按键入](src/main/java/algorithm/leetcode/Solution925.java) | 简单 |
+| 922  | 排序、数组 | [按奇偶排序数组 II](src/main/java/algorithm/leetcode/Solution922.java) | 简单 |
 | 923  | 双指针 | [三数之和的多种可能](src/main/java/algorithm/leetcode/Solution923.java) | 中等 |
+| 925  | 双指针、字符串 | [长按键入](src/main/java/algorithm/leetcode/Solution925.java) | 简单 |
 | 930  | 双指针、哈希表 | [和相同的二元子数组](src/main/java/algorithm/leetcode/Solution930.java) | 中等 |
 | 973  | 排序、数学、分治算法 | [最接近原点的 K 个点](src/main/java/algorithm/leetcode/Solution973.java) | 简单 |
 
