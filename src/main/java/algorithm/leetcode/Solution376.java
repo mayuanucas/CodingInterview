@@ -2,7 +2,7 @@ package algorithm.leetcode;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 摆动序列
  * @date: 2018/08/22
  */
 public class Solution376 {
@@ -21,8 +21,10 @@ public class Solution376 {
             if (nums[i] > nums[i - 1]) {
                 // 此时到该位置的以上升沿结束的摆动序列长度为上一位置下降沿序列长度加一
                 up[i] = down[i - 1] + 1;
+                // 因为可以把中间的元素删除
                 down[i] = down[i - 1];
             } else if (nums[i] < nums[i - 1]) {
+                // 因为可以把中间的元素删除
                 up[i] = up[i - 1];
                 // 此时到该位置的以下降沿结束的摆动序列长度为上一位置上升沿序列长度加一
                 down[i] = up[i - 1] + 1;
