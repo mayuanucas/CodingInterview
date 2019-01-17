@@ -44,6 +44,7 @@
 | 274  | 排序、哈希表 | [H指数](src/main/java/algorithm/leetcode/Solution274.java) | 中等 |
 | 283  | 数组、双指针 | [移动零](src/main/java/algorithm/leetcode/Solution283.java) | 简单 |
 | 287  | 数组、双指针、二分查找 | [寻找重复数](src/main/java/algorithm/leetcode/Solution287.java) | 中等 |
+| 324  | 排序 | [摆动排序 II](src/main/java/algorithm/leetcode/Solution324.java) | 中等 |
 | 344  | 字符串、双指针 | [反转字符串](src/main/java/algorithm/leetcode/Solution344.java) | 简单 |
 | 345  | 字符串、双指针 | [反转字符串中的元音字母](src/main/java/algorithm/leetcode/Solution345.java) | 简单 |
 | 349  | 排序、哈希表、双指针、二分查找 | [两个数组的交集](src/main/java/algorithm/leetcode/Solution349.java) | 简单 |
