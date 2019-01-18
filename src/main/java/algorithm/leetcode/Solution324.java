@@ -1,5 +1,7 @@
 package algorithm.leetcode;
 
+import java.util.Random;
+
 /**
  * @author: mayuan
  * @desc: 摆动排序 II
@@ -82,6 +84,9 @@ public class Solution324 {
     }
 
     public int partition(int[] array, int left, int right) {
+        int random = new Random().nextInt(right - left + 1) + left;
+        swap(array, left, random);
+
         int pivot = array[left];
         while (left < right) {
             while (left < right && array[right] >= pivot) {
