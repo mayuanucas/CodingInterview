@@ -31,6 +31,7 @@
 | 088  | 数组、双指针 | [合并两个有序数组](src/main/java/algorithm/leetcode/Solution088.java) | 简单 |
 | 122  | 贪心算法、数组 | [买卖股票的最佳时机 II](src/main/java/algorithm/leetcode/Solution122.java) | 简单 |
 | 125  | 字符串、双指针 | [验证回文串](src/main/java/algorithm/leetcode/Solution125.java) | 简单 |
+| 134  | 贪心算法 | [加油站](src/main/java/algorithm/leetcode/Solution134.java) | 中等 |
 | 141  | 链表、双指针 | [环形链表](src/main/java/algorithm/leetcode/Solution141.java) | 简单 |
 | 142  | 链表、双指针 | [环形链表 II](src/main/java/algorithm/leetcode/Solution142.java) | 中等 |
 | 147  | 排序、链表 | [对链表进行插入排序](src/main/java/algorithm/leetcode/Solution147.java) | 中等 |
