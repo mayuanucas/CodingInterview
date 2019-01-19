@@ -72,49 +72,7 @@
 | 969  | 排序、数组 | [煎饼排序](src/main/java/algorithm/leetcode/Solution969.java) | 中等 |
 | 973  | 排序、数学、分治算法 | [最接近原点的 K 个点](src/main/java/algorithm/leetcode/Solution973.java) | 简单 |
 
-### 2.按题目类型
-
-#### **哈希表**
-
-| 题号  | 题目                                                                    | 难度  |
-|:---:|:--------------------------------------------------------------------- |:---:|
-| 001  | [两数之和](src/main/java/algorithm/leetcode/Solution001.java) | 简单 |
-
-
-#### **双指针**
-
-| 题号  | 题目                                                                    | 难度  |
-|:---:|:--------------------------------------------------------------------- |:---:|
-| 088 | [合并两个有序数组](src/main/java/algorithm/leetcode/Solution088.java)         | 简单  |
-| 144 | [环形链表](src/main/java/algorithm/leetcode/Solution144.java)             | 简单  |
-| 167 | [两数之和 II - 输入有序数组](src/main/java/algorithm/leetcode/Solution167.java) | 简单  |
-| 345 | [反转字符串中的元音字符](src/main/java/algorithm/leetcode/Solution345.java)      | 简单  |
-| 524 | [通过删除字母匹配到字典里最长单词](src/main/java/algorithm/leetcode/Solution524.java) | 中等  |
-| 633 | [平方数之和](src/main/java/algorithm/leetcode/Solution633.java)            | 简单  |
-| 680 | [验证回文字符串 Ⅱ](src/main/java/algorithm/leetcode/Solution680.java)        | 简单  |
-
-#### **排序**
-
-| 题号  | 题目                                                               | 难度  |
-|:---:|:---------------------------------------------------------------- |:---:|
-| 075 | [颜色分类](src/main/java/algorithm/leetcode/Solution075.java)        | 中等  |
-| 215 | [数组中的第K个最大元素](src/main/java/algorithm/leetcode/Solution215.java) | 中等  |
-| 347 | [前K个高频元素](src/main/java/algorithm/leetcode/Solution347.java)     | 中等  |
-| 451 | [根据字符出现频率排序](src/main/java/algorithm/leetcode/Solution451.java)  | 中等  |
-
-#### **贪心算法**
-
-| 题号  | 题目                                                                | 难度  |
-|:---:|:----------------------------------------------------------------- |:---:|
-| 122 | [买卖股票的最佳时机 II](src/main/java/algorithm/leetcode/Solution122.java) | 简单  |
-| 392 | [判断子序列](src/main/java/algorithm/leetcode/Solution392.java)        | 简单  |
-| 406 | [据身高重建队列](src/main/java/algorithm/leetcode/Solution406.java)      | 简单  |
-| 435 | [无重叠区间](src/main/java/algorithm/leetcode/Solution435.java)        | 简单  |
-| 452 | [用最少数量的箭引爆气球](src/main/java/algorithm/leetcode/Solution452.java)  | 简单  |
-| 455 | [分配饼干](src/main/java/algorithm/leetcode/Solution455.java)         | 简单  |
-| 605 | [种花问题](src/main/java/algorithm/leetcode/Solution605.java)         | 简单  |
-| 665 | [非递减数列](src/main/java/algorithm/leetcode/Solution665.java)        | 简单  |
-| 763 | [划分字母区间](src/main/java/algorithm/leetcode/Solution763.java)       | 简单  |
+### 2.分类专题
 
 #### **二分搜索**
 
@@ -175,6 +133,20 @@
 | 216 | [组合总和3](src/main/java/algorithm/leetcode/Solution216.java)     | 困难  |
 | 257 | [二叉树的所有路径](src/main/java/algorithm/leetcode/Solution257.java)  | 困难  |
 | 306 | [累加数](src/main/java/algorithm/leetcode/Solution306.java)       | 困难  |
+
+#### **贪心算法**
+
+| 题号  | 题目                                                                | 难度  |
+|:---:|:----------------------------------------------------------------- |:---:|
+| 122 | [买卖股票的最佳时机 II](src/main/java/algorithm/leetcode/Solution122.java) | 简单  |
+| 392 | [判断子序列](src/main/java/algorithm/leetcode/Solution392.java)        | 简单  |
+| 406 | [据身高重建队列](src/main/java/algorithm/leetcode/Solution406.java)      | 简单  |
+| 435 | [无重叠区间](src/main/java/algorithm/leetcode/Solution435.java)        | 简单  |
+| 452 | [用最少数量的箭引爆气球](src/main/java/algorithm/leetcode/Solution452.java)  | 简单  |
+| 455 | [分配饼干](src/main/java/algorithm/leetcode/Solution455.java)         | 简单  |
+| 605 | [种花问题](src/main/java/algorithm/leetcode/Solution605.java)         | 简单  |
+| 665 | [非递减数列](src/main/java/algorithm/leetcode/Solution665.java)        | 简单  |
+| 763 | [划分字母区间](src/main/java/algorithm/leetcode/Solution763.java)       | 简单  |
 
 #### **动态规划**
 
