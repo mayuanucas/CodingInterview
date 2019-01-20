@@ -54,6 +54,7 @@
 | 350  | 排序、哈希表、双指针、二分查找 | [两个数组的交集 II](src/main/java/algorithm/leetcode/Solution350.java) | 简单 |
 | 376  | 动态规划、贪心算法 | [摆动序列](src/main/java/algorithm/leetcode/Solution376.java) | 中等 |
 | 392  | 动态规划、贪心算法、二分查找 | [判断子序列](src/main/java/algorithm/leetcode/Solution392.java) | 中等 |
+| 402  | 栈、贪心算法 | [移掉K位数字](src/main/java/algorithm/leetcode/Solution402.java) | 中等 |
 | 524  | 排序、双指针 | [通过删除字母匹配到字典里最长单词](src/main/java/algorithm/leetcode/Solution524.java) | 中等 |
 | 532  | 排序、双指针 | [数组中的K-diff数对](src/main/java/algorithm/leetcode/Solution532.java) | 简单 |
 | 567  | 双指针 | [字符串的排列](src/main/java/algorithm/leetcode/Solution567.java) | 中等 |
