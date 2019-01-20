@@ -5,7 +5,7 @@ import java.util.Comparator;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 无重叠区间
  * @date: 2018/08/18
  */
 public class Solution435 {
@@ -26,7 +26,7 @@ public class Solution435 {
             return 0;
         }
 
-        Arrays.sort(intervals, Comparator.comparingInt(o -> o.end));
+        Arrays.sort(intervals, (a, b) -> a.end - b.end);
 
         int cnt = 1;
         int end = intervals[0].end;
