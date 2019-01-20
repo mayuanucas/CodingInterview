@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 根据身高重建队列
  * @date: 2018/08/19
  */
 public class Solution406 {
@@ -30,9 +30,11 @@ public class Solution406 {
             return new int[0][0];
         }
 
+        // 按照第一个位置元素逆自然序排列,按照第二个位置元素自然序排列
         Arrays.sort(people, (a, b) -> (a[0] == b[0]) ? a[1] - b[1] : b[0] - a[0]);
-        List<int[]> answer = new ArrayList<>();
+        List<int[]> answer = new ArrayList<>(people.length);
         for (int[] p : people) {
+            // 指定 插入位置,插入的元素
             answer.add(p[1], p);
         }
         return answer.toArray(new int[answer.size()][]);
