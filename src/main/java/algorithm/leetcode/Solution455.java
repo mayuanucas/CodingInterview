@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 分发饼干
  * @date: 2018/08/18
  */
 public class Solution455 {
