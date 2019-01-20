@@ -2,7 +2,7 @@ package algorithm.leetcode;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 判断子序列
  * @date: 2018/08/19
  */
 public class Solution392 {
@@ -12,10 +12,10 @@ public class Solution392 {
     }
 
     public boolean isSubsequence(String s, String t) {
-        int index = -1;
+        int start = -1;
         for (char c : s.toCharArray()) {
-            index = t.indexOf(c, index + 1);
-            if (-1 == index) {
+            start = t.indexOf(c, start + 1);
+            if (-1 == start) {
                 return false;
             }
         }
