@@ -5,7 +5,7 @@ import java.util.Comparator;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 用最少数量的箭引爆气球
  * @date: 2018/08/19
  */
 public class Solution452 {
@@ -27,14 +27,15 @@ public class Solution452 {
             return 0;
         }
 
-        Arrays.sort(points, Comparator.comparingInt(o -> o[1]));
-        int cnt = 1, end = points[0][1];
+        Arrays.sort(points, (a, b) -> a[1] - b[1]);
+        int arrowCnt = 1, arrowPos = points[0][1];
         for (int i = 1; i < points.length; ++i) {
-            if (end < points[i][0]) {
-                ++cnt;
-                end = points[i][1];
+            if (arrowPos >= points[i][0]) {
+                continue;
             }
+            ++arrowCnt;
+            arrowPos = points[i][1];
         }
-        return cnt;
+        return arrowCnt;
     }
 }
