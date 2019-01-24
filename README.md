@@ -66,6 +66,7 @@
 | 649  | 贪心算法 | [Dota2 参议院](src/main/java/algorithm/leetcode/Solution649.java) | 中等 |
 | 659  | 堆、贪心算法 | [分割数组为连续子序列](src/main/java/algorithm/leetcode/Solution659.java) | 中等 |
 | 713  | 数组、双指针 | [乘积小于K的子数组](src/main/java/algorithm/leetcode/Solution713.java) | 中等 |
+| 714  | 数组、数组、动态规划 | [买卖股票的最佳时机含手续费](src/main/java/algorithm/leetcode/Solution714.java) | 中等 |
 | 738  | 贪心算法 | [单调递增的数字](src/main/java/algorithm/leetcode/Solution738.java) | 中等 |
 | 763  | 贪心算法、双指针 | [划分字母区间](src/main/java/algorithm/leetcode/Solution763.java) | 中等 |
 | 767  | 堆、贪心算法、排序、字符串 | [重构字符串](src/main/java/algorithm/leetcode/Solution767.java) | 中等 |
