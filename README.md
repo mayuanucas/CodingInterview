@@ -29,6 +29,7 @@
 | 080  | 数组、双指针 | [删除排序数组中的重复项 II](src/main/java/algorithm/leetcode/Solution080.java) | 中等 |
 | 086  | 链表、双指针 | [分隔链表](src/main/java/algorithm/leetcode/Solution086.java) | 中等 |
 | 088  | 数组、双指针 | [合并两个有序数组](src/main/java/algorithm/leetcode/Solution088.java) | 简单 |
+| 121  | 数组、动态规划 | [买卖股票的最佳时机](src/main/java/algorithm/leetcode/Solution121.java) | 简单 |
 | 122  | 贪心算法、数组 | [买卖股票的最佳时机 II](src/main/java/algorithm/leetcode/Solution122.java) | 简单 |
 | 125  | 字符串、双指针 | [验证回文串](src/main/java/algorithm/leetcode/Solution125.java) | 简单 |
 | 134  | 贪心算法 | [加油站](src/main/java/algorithm/leetcode/Solution134.java) | 中等 |
