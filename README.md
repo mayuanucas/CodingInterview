@@ -78,6 +78,7 @@
 | 826  | 双指针 | [安排工作以达到最大收益](src/main/java/algorithm/leetcode/Solution826.java) | 中等 |
 | 838  | 双指针 | [推多米诺](src/main/java/algorithm/leetcode/Solution838.java) | 中等 |
 | 841  | 双指针 | [字符的最短距离](src/main/java/algorithm/leetcode/Solution841.java) | 简单 |
+| 842  | 贪心算法、字符串、回溯算法 | [将数组拆分成斐波那契序列](src/main/java/algorithm/leetcode/Solution842.java) | 中等 |
 | 844  | 双指针 | [比较含退格的字符串](src/main/java/algorithm/leetcode/Solution844.java) | 简单 |
 | 845  | 双指针 | [数组中的最长山脉](src/main/java/algorithm/leetcode/Solution845.java) | 中等 |
 | 859  | 字符串 | [亲密字符串](src/main/java/algorithm/leetcode/Solution859.java) | 中等 |
