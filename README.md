@@ -85,6 +85,7 @@
 | 860  | 贪心算法 | [柠檬水找零](src/main/java/algorithm/leetcode/Solution860.java) | 简单 |
 | 861  | 贪心算法 | [翻转矩阵后的得分](src/main/java/algorithm/leetcode/Solution861.java) | 中等 |
 | 874  | 贪心算法 | [模拟行走机器人](src/main/java/algorithm/leetcode/Solution874.java) | 简单 |
+| 870  | 贪心算法、数组 | [优势洗牌](src/main/java/algorithm/leetcode/Solution870.java) | 中等 |
 | 881  | 双指针 | [救生艇](src/main/java/algorithm/leetcode/Solution881.java) | 中等 |
 | 904  | 双指针 | [水果成篮](src/main/java/algorithm/leetcode/Solution904.java) | 中等 |
 | 922  | 排序、数组 | [按奇偶排序数组 II](src/main/java/algorithm/leetcode/Solution922.java) | 简单 |
