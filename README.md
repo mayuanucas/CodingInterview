@@ -88,6 +88,7 @@
 | 870  | 贪心算法、数组 | [优势洗牌](src/main/java/algorithm/leetcode/Solution870.java) | 中等 |
 | 881  | 双指针 | [救生艇](src/main/java/algorithm/leetcode/Solution881.java) | 中等 |
 | 904  | 双指针 | [水果成篮](src/main/java/algorithm/leetcode/Solution904.java) | 中等 |
+| 921  | 栈、贪心算法 | [使括号有效的最少添加](src/main/java/algorithm/leetcode/Solution921.java) | 中等 |
 | 922  | 排序、数组 | [按奇偶排序数组 II](src/main/java/algorithm/leetcode/Solution922.java) | 简单 |
 | 923  | 双指针 | [三数之和的多种可能](src/main/java/algorithm/leetcode/Solution923.java) | 中等 |
 | 925  | 双指针、字符串 | [长按键入](src/main/java/algorithm/leetcode/Solution925.java) | 简单 |
