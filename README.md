@@ -99,6 +99,7 @@
 | 955  | 贪心算法 | [删列造序 II](src/main/java/algorithm/leetcode/Solution955.java) | 中等 |
 | 969  | 排序、数组 | [煎饼排序](src/main/java/algorithm/leetcode/Solution969.java) | 中等 |
 | 973  | 排序、数学、分治算法 | [最接近原点的 K 个点](src/main/java/algorithm/leetcode/Solution973.java) | 简单 |
+| 984  | 贪心算法 | [不含 AAA 或 BBB 的字符串](src/main/java/algorithm/leetcode/Solution984.java) | 简单 |
 
 ### 2.分类专题
 
