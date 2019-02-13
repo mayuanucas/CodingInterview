@@ -25,6 +25,8 @@
 | 028  | 字符串、双指针 | [实现strStr()](src/main/java/algorithm/leetcode/Solution028.java) | 简单 |
 | 039  | 数组、回溯算法 | [组合总和](src/main/java/algorithm/leetcode/Solution039.java) | 中等 |
 | 040  | 数组、回溯算法 | [组合总和 II](src/main/java/algorithm/leetcode/Solution040.java) | 中等 |
+| 046  | 回溯算法 | [全排列](src/main/java/algorithm/leetcode/Solution046.java) | 中等 |
+| 047  | 回溯算法 | [全排列II](src/main/java/algorithm/leetcode/Solution047.java) | 中等 |
 | 051  | 回溯算法 | [N皇后](src/main/java/algorithm/leetcode/Solution051.java) | 困难 |
 | 052  | 回溯算法 | [N皇后 II](src/main/java/algorithm/leetcode/Solution052.java) | 困难 |
 | 055  | 贪心算法、数组 | [跳跃游戏](src/main/java/algorithm/leetcode/Solution055.java) | 中等 |
