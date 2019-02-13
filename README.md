@@ -32,6 +32,7 @@
 | 055  | 贪心算法、数组 | [跳跃游戏](src/main/java/algorithm/leetcode/Solution055.java) | 中等 |
 | 056  | 排序、数组 | [合并区间](src/main/java/algorithm/leetcode/Solution056.java) | 中等 |
 | 057  | 排序、数组 | [插入区间](src/main/java/algorithm/leetcode/Solution057.java) | 困难 |
+| 060  | 数学、回溯算法 | [第k个排列](src/main/java/algorithm/leetcode/Solution060.java) | 中等 |
 | 061  | 链表、双指针 | [旋转链表](src/main/java/algorithm/leetcode/Solution061.java) | 中等 |
 | 075  | 排序、数组、双指针 | [颜色分类](src/main/java/algorithm/leetcode/Solution075.java) | 中等 |
 | 077  | 回溯算法 | [组合](src/main/java/algorithm/leetcode/Solution077.java) | 中等 |

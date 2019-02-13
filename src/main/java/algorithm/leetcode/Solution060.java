@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 第k个排列
  * @date: 2018/08/03
  */
 public class Solution060 {
@@ -30,10 +30,8 @@ public class Solution060 {
         // 存储阶乘的数组
         int[] factorial = new int[n + 1];
         factorial[0] = 1;
-        int sum = 1;
-        for (int i = 1; i <= n; i++) {
-            sum *= i;
-            factorial[i] = sum;
+        for (int i = 1; i <= n; ++i) {
+            factorial[i] = i * factorial[i - 1];
         }
 
         // k 越界
@@ -54,7 +52,7 @@ public class Solution060 {
             // 添加该数字后,需要从列表中把该数字删除
             numbers.remove(a);
             // 此处不用取余,避免K为-1
-            k = k - a * factorial[n - i];
+            k -= a * factorial[n - i];
         }
         return stringBuilder.toString();
     }
