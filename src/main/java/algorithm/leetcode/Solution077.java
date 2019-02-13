@@ -28,15 +28,6 @@ public class Solution077 {
         return answer;
     }
 
-    /**
-     * 回溯算法
-     *
-     * @param answer
-     * @param oneAnswer
-     * @param n
-     * @param k
-     * @param index
-     */
     public void dfs(List<List<Integer>> answer, List<Integer> oneAnswer, int n, int k, int index) {
         // 临时列表的长度和 k 相等时,即找到一组答案,添加到列表中.
         if (k == oneAnswer.size()) {
@@ -46,9 +37,7 @@ public class Solution077 {
 
         for (int i = index; i <= n; i++) {
             oneAnswer.add(i);
-
             dfs(answer, oneAnswer, n, k, i + 1);
-
             oneAnswer.remove(oneAnswer.size() - 1);
         }
     }
