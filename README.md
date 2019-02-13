@@ -21,6 +21,7 @@
 | 026  | 数组、双指针 | [删除排序数组中的重复项](src/main/java/algorithm/leetcode/Solution026.java) | 简单 |
 | 027  | 数组、双指针 | [移除元素](src/main/java/algorithm/leetcode/Solution027.java) | 简单 |
 | 028  | 字符串、双指针 | [实现strStr()](src/main/java/algorithm/leetcode/Solution028.java) | 简单 |
+| 051  | 回溯算法 | [N皇后](src/main/java/algorithm/leetcode/Solution051.java) | 困难 |
 | 055  | 贪心算法、数组 | [跳跃游戏](src/main/java/algorithm/leetcode/Solution055.java) | 中等 |
 | 056  | 排序、数组 | [合并区间](src/main/java/algorithm/leetcode/Solution056.java) | 中等 |
 | 057  | 排序、数组 | [插入区间](src/main/java/algorithm/leetcode/Solution057.java) | 困难 |
