@@ -28,6 +28,7 @@ public class Solution039 {
             return answer;
         }
 
+        // 必须先进行排序
         Arrays.sort(candidates);
         dfs(candidates, target, answer, oneAnswer, 0);
         return answer;
@@ -36,14 +37,14 @@ public class Solution039 {
     public void dfs(int[] candidates, int target, List<List<Integer>> answer, List<Integer> oneAnswer, int start) {
         if (0 > target) {
             return;
-        }
-        if (0 == target) {
+        } else if (0 == target) {
             answer.add(new LinkedList<>(oneAnswer));
-        }
-        for (int i = start; i < candidates.length; i++) {
-            oneAnswer.add(candidates[i]);
-            dfs(candidates, target - candidates[i], answer, oneAnswer, i);
-            oneAnswer.remove(oneAnswer.size() - 1);
+        } else {
+            for (int i = start; i < candidates.length; ++i) {
+                oneAnswer.add(candidates[i]);
+                dfs(candidates, target - candidates[i], answer, oneAnswer, i);
+                oneAnswer.remove(oneAnswer.size() - 1);
+            }
         }
     }
 }
