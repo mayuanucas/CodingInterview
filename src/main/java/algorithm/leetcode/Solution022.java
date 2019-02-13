@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 括号生成
  * @date: 2018/07/16
  */
 public class Solution022 {
@@ -20,19 +20,19 @@ public class Solution022 {
         return ans;
     }
 
-    public void dfs(List<String> ans, String temp, int n, int left, int right) {
+    public void dfs(List<String> ans, String oneAnswer, int n, int left, int right) {
         if (right == n) {
-            ans.add(temp);
+            ans.add(oneAnswer);
             return;
         }
 
         // 左括号数量少于 n ,优先添加左括号
         if (left < n) {
-            dfs(ans, temp + "(", n, left + 1, right);
+            dfs(ans, oneAnswer + "(", n, left + 1, right);
         }
         // 右括号数量少于左括号数量 ,添加右括号与左括号配对
         if (right < left) {
-            dfs(ans, temp + ")", n, left, right + 1);
+            dfs(ans, oneAnswer + ")", n, left, right + 1);
         }
     }
 }

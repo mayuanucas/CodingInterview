@@ -19,6 +19,7 @@
 | 017  | 字符串、回溯算法 | [电话号码的字母组合](src/main/java/algorithm/leetcode/Solution017.java) | 中等 |
 | 018  | 数组、哈希表、双指针 | [四数之和](src/main/java/algorithm/leetcode/Solution018.java) | 中等 |
 | 019  | 链表、双指针 | [删除链表的倒数第N个节点](src/main/java/algorithm/leetcode/Solution019.java) | 中等 |
+| 022  | 字符串、回溯算法 | [括号生成](src/main/java/algorithm/leetcode/Solution022.java) | 中等 |
 | 026  | 数组、双指针 | [删除排序数组中的重复项](src/main/java/algorithm/leetcode/Solution026.java) | 简单 |
 | 027  | 数组、双指针 | [移除元素](src/main/java/algorithm/leetcode/Solution027.java) | 简单 |
 | 028  | 字符串、双指针 | [实现strStr()](src/main/java/algorithm/leetcode/Solution028.java) | 简单 |
