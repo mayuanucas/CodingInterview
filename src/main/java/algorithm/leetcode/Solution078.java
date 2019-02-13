@@ -1,21 +1,12 @@
 package algorithm.leetcode;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
 /**
  * @author: mayuan
- * @desc: 本解法采用回溯算法实现，回溯算法的基本形式是“递归+循环”，正因为循环中嵌套着递归，递归中包含循环，
- * 这才使得回溯比一般的递归和单纯的循环更难理解，其实我们熟悉了它的基本形式，就会觉得这样的算法难度也不是很大。
- * 原数组中的每个元素有两种状态：存在和不存在。
- * <p>
- * ① 外层循环逐一往中间集合 temp 中加入元素 nums[i]，使这个元素处于存在状态
- * <p>
- * ② 开始递归，递归中携带加入新元素的 temp，并且下一次循环的起始是 i 元素的下一个，因而递归中更新 i 值为 i + 1
- * <p>
- * ③ 将这个从中间集合 temp 中移除，使该元素处于不存在状态
- * @date: 2018/08/08
+ * @desc: 子集
+ * @date: 2019/02/13
  */
 public class Solution078 {
 
@@ -34,22 +25,16 @@ public class Solution078 {
         List<List<Integer>> answer = new LinkedList<>();
         List<Integer> oneAnswer = new LinkedList<>();
 
-        // 找出不同大小的子集
-        for (int size = 0; size <= nums.length; ++size) {
-            dfs(answer, oneAnswer, nums, size, 0);
-        }
+        dfs(answer, oneAnswer, nums, 0);
         return answer;
     }
 
-    private void dfs(List<List<Integer>> answer, List<Integer> oneAnswer, int[] nums, int size, int start) {
-        if (size == oneAnswer.size()) {
-            answer.add(new LinkedList<>(oneAnswer));
-            return;
-        }
+    private void dfs(List<List<Integer>> answer, List<Integer> oneAnswer, int[] nums, int start) {
+        answer.add(new LinkedList<>(oneAnswer));
 
-        for (int i = start; i < nums.length; i++) {
+        for (int i = start; i < nums.length; ++i) {
             oneAnswer.add(nums[i]);
-            dfs(answer, oneAnswer, nums, size, i + 1);
+            dfs(answer, oneAnswer, nums, i + 1);
             oneAnswer.remove(oneAnswer.size() - 1);
         }
     }

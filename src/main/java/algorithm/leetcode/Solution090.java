@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 子集 II
  * @date: 2018/08/11
  */
 public class Solution090 {
@@ -33,31 +33,21 @@ public class Solution090 {
 
         // 必须先对数组进行排序
         Arrays.sort(nums);
-        for (int size = 0; size <= nums.length; ++size) {
-            dfs(answer, oneAnswer, new boolean[nums.length], nums, size, 0);
-        }
+        dfs(answer, oneAnswer, nums, 0);
         return answer;
     }
 
-    public void dfs(List<List<Integer>> answer, List<Integer> oneAnswer, boolean[] hasVisited, int[] nums, int size, int start) {
-        if (size == oneAnswer.size()) {
-            answer.add(new LinkedList<>(oneAnswer));
-            return;
-        }
+    public void dfs(List<List<Integer>> answer, List<Integer> oneAnswer, int[] nums, int start) {
+        answer.add(new LinkedList<>(oneAnswer));
 
         for (int i = start; i < nums.length; i++) {
             // 去除重复的解
-            if (0 != i && nums[i] == nums[i - 1] && !hasVisited[i - 1]) {
+            if (i > start && nums[i] == nums[i - 1]) {
                 continue;
             }
-
             oneAnswer.add(nums[i]);
-            hasVisited[i] = true;
-
-            dfs(answer, oneAnswer, hasVisited, nums, size, i + 1);
-
+            dfs(answer, oneAnswer, nums, i + 1);
             oneAnswer.remove(oneAnswer.size() - 1);
-            hasVisited[i] = false;
         }
     }
 }
