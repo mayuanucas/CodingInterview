@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 格雷编码
  * @date: 2018/08/12
  */
 public class Solution089 {
