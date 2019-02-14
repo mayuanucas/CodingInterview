@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 复原IP地址
  * @date: 2018/08/13
  */
 public class Solution093 {
@@ -39,12 +39,12 @@ public class Solution093 {
             return;
         }
 
-        for (int step = 1; step <= 3; step++) {
+        for (int i = 1; i <= 3; ++i) {
             // 余下的字符串长度 远大于 合法ip字符串最大长度 (大大减小运行时间)
             if (s.length() - start > (4 - partNumber) * 3) {
                 return;
             }
-            int end = start + step;
+            int end = start + i;
             // 索引位置超出字符串长度,直接返回
             if (end > s.length()) {
                 return;
@@ -59,6 +59,11 @@ public class Solution093 {
         }
     }
 
+    /**
+     * 判断该段IP是否合法
+     * @param str
+     * @return
+     */
     private boolean isValid(String str) {
         if ((str.charAt(0) == '0' && str.length() > 1) || Integer.parseInt(str) > 255) {
             return false;

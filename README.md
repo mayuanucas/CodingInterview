@@ -43,6 +43,7 @@
 | 088  | 数组、双指针 | [合并两个有序数组](src/main/java/algorithm/leetcode/Solution088.java) | 简单 |
 | 089  | 回溯算法 | [格雷编码](src/main/java/algorithm/leetcode/Solution089.java) | 中等 |
 | 090  | 数组、回溯算法 | [子集II](src/main/java/algorithm/leetcode/Solution090.java) | 中等 |
+| 093  | 字符串、回溯算法 | [复原IP地址](src/main/java/algorithm/leetcode/Solution093.java) | 中等 |
 | 121  | 数组、动态规划 | [买卖股票的最佳时机](src/main/java/algorithm/leetcode/Solution121.java) | 简单 |
 | 122  | 贪心算法、数组 | [买卖股票的最佳时机 II](src/main/java/algorithm/leetcode/Solution122.java) | 简单 |
 | 123  | 动态规划、数组 | [买卖股票的最佳时机 III](src/main/java/algorithm/leetcode/Solution122.java) | 困难 |
