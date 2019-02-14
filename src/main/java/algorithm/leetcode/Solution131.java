@@ -1,12 +1,11 @@
 package algorithm.leetcode;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 分割回文串
  * @date: 2018/08/13
  */
 public class Solution131 {
@@ -27,9 +26,7 @@ public class Solution131 {
 
     public List<List<String>> partition(String s) {
         List<List<String>> answer = new LinkedList<>();
-
         dfs(answer, new LinkedList<>(), s);
-
         return answer;
     }
 
