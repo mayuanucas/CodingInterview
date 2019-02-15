@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 单词搜索 II
  * @date: 2018/08/12
  */
 public class Solution212 {
@@ -21,8 +21,7 @@ public class Solution212 {
 
         Solution212 test = new Solution212();
         List<String> ans = test.findWords(board, words);
-//        List<String> ans = test.findWords(board2, words2);
-        ans.forEach(item -> System.out.println(item));
+        ans.forEach(System.out::println);
     }
 
     public List<String> findWords(char[][] board, String[] words) {

@@ -61,6 +61,7 @@
 | 206  | 链表 | [反转链表](src/main/java/algorithm/leetcode/Solution206.java) | 简单 |
 | 209  | 数组、双指针、二分查找 | [长度最小的子数组](src/main/java/algorithm/leetcode/Solution209.java) | 中等 |
 | 211  | 设计、字典数、回溯算法 | [添加与搜索单词 - 数据结构设计](src/main/java/algorithm/leetcode/Solution211.java) | 中等 |
+| 212  | 字典数、回溯算法 | [单词搜索 II](src/main/java/algorithm/leetcode/Solution212.java) | 困难 |
 | 216  | 数组、回溯算法 | [组合总和 III](src/main/java/algorithm/leetcode/Solution216.java) | 中等 |
 | 234  | 链表、双指针 | [回文链表](src/main/java/algorithm/leetcode/Solution234.java) | 简单 |
 | 235  | 树 | [二叉搜索树的最近公共祖先](src/main/java/algorithm/leetcode/Solution235.java) | 简单 |
