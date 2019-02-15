@@ -39,7 +39,7 @@ public class Solution306 {
             return false;
         }
 
-        String sum = null;
+        String sum = "";
         Long x1 = Long.parseLong(num.substring(0, i));
         Long x2 = Long.parseLong(num.substring(i, i + j));
         for (int start = i + j; start != num.length(); start += sum.length()) {
