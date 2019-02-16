@@ -23,16 +23,16 @@ public class Solution842 {
         return answer;
     }
 
-    public boolean dfs(List<Integer> answer, String str, int index) {
-        if (index == str.length() && 3 <= answer.size()) {
+    public boolean dfs(List<Integer> answer, String str, int start) {
+        if (start == str.length() && 3 <= answer.size()) {
             return true;
         }
 
-        for (int i = index; i < str.length(); ++i) {
-            if ('0' == str.charAt(index) && i > index) {
+        for (int i = start; i < str.length(); ++i) {
+            if ('0' == str.charAt(start) && i > start) {
                 break;
             }
-            long num = Long.parseLong(str.substring(index, i + 1));
+            long num = Long.parseLong(str.substring(start, i + 1));
             if (num > Integer.MAX_VALUE) {
                 break;
             }
@@ -43,10 +43,13 @@ public class Solution842 {
             }
             if (1 >= size || num == answer.get(size - 1) + answer.get(size - 2)) {
                 answer.add((int) num);
+                // 如果已经找到一组符合要求的解,则直接返回(不再从列表中删除元素)
+                // 否则再移除列表中最后一个元素,继续回溯
                 if (dfs(answer, str, i + 1)) {
                     return true;
+                } else {
+                    answer.remove(answer.size() - 1);
                 }
-                answer.remove(answer.size() - 1);
             }
         }
         return false;
