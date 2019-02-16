@@ -86,6 +86,7 @@
 | 452  | 贪心算法 | [用最少数量的箭引爆气球](src/main/java/algorithm/leetcode/Solution452.java) | 中等 |
 | 455  | 贪心算法 | [分发饼干](src/main/java/algorithm/leetcode/Solution455.java) | 简单 |
 | 524  | 排序、双指针 | [通过删除字母匹配到字典里最长单词](src/main/java/algorithm/leetcode/Solution524.java) | 中等 |
+| 526  | 回溯算法 | [优美的排列](src/main/java/algorithm/leetcode/Solution526.java) | 中等 |
 | 532  | 排序、双指针 | [数组中的K-diff数对](src/main/java/algorithm/leetcode/Solution532.java) | 简单 |
 | 567  | 双指针 | [字符串的排列](src/main/java/algorithm/leetcode/Solution567.java) | 中等 |
 | 621  | 贪心算法、队列、数组 | [任务调度器](src/main/java/algorithm/leetcode/Solution621.java) | 中等 |
