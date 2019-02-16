@@ -95,6 +95,7 @@
 | 738  | 贪心算法 | [单调递增的数字](src/main/java/algorithm/leetcode/Solution738.java) | 中等 |
 | 763  | 贪心算法、双指针 | [划分字母区间](src/main/java/algorithm/leetcode/Solution763.java) | 中等 |
 | 767  | 堆、贪心算法、排序、字符串 | [重构字符串](src/main/java/algorithm/leetcode/Solution767.java) | 中等 |
+| 784  | 位运算、回溯算法 | [字母大小写全排列](src/main/java/algorithm/leetcode/Solution784.java) | 简单 |
 | 826  | 双指针 | [安排工作以达到最大收益](src/main/java/algorithm/leetcode/Solution826.java) | 中等 |
 | 838  | 双指针 | [推多米诺](src/main/java/algorithm/leetcode/Solution838.java) | 中等 |
 | 841  | 双指针 | [字符的最短距离](src/main/java/algorithm/leetcode/Solution841.java) | 简单 |
