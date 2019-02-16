@@ -77,6 +77,7 @@
 | 345  | 字符串、双指针 | [反转字符串中的元音字母](src/main/java/algorithm/leetcode/Solution345.java) | 简单 |
 | 349  | 排序、哈希表、双指针、二分查找 | [两个数组的交集](src/main/java/algorithm/leetcode/Solution349.java) | 简单 |
 | 350  | 排序、哈希表、双指针、二分查找 | [两个数组的交集 II](src/main/java/algorithm/leetcode/Solution350.java) | 简单 |
+| 357  | 数学、动态规划、回溯算法 | [计算各个位数不同的数字个数](src/main/java/algorithm/leetcode/Solution357.java) | 中等 |
 | 376  | 动态规划、贪心算法 | [摆动序列](src/main/java/algorithm/leetcode/Solution376.java) | 中等 |
 | 392  | 动态规划、贪心算法、二分查找 | [判断子序列](src/main/java/algorithm/leetcode/Solution392.java) | 中等 |
 | 402  | 栈、贪心算法 | [移掉K位数字](src/main/java/algorithm/leetcode/Solution402.java) | 中等 |
