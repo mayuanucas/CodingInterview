@@ -13,6 +13,7 @@
 | 001  | 数组、哈希表 | [两数之和](src/main/java/algorithm/leetcode/Solution001.java) | 简单 |
 | 002  | 链表、数学 | [两数相加](src/main/java/algorithm/leetcode/Solution002.java) | 中等 |
 | 003  | 字符串、哈希表、双指针 | [无重复字符的最长子串](src/main/java/algorithm/leetcode/Solution003.java) | 中等 |
+| 005  | 字符串、动态规划 | [最长回文子串](src/main/java/algorithm/leetcode/Solution005.java) | 中等 |
 | 011  | 数组、双指针 | [盛最多水的容器](src/main/java/algorithm/leetcode/Solution011.java) | 中等 |
 | 015  | 数组、双指针 | [三数之和](src/main/java/algorithm/leetcode/Solution015.java) | 中等 |
 | 016  | 数组、双指针 | [最接近的三数之和](src/main/java/algorithm/leetcode/Solution016.java) | 中等 |
