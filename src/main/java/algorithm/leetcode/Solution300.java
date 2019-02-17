@@ -1,10 +1,8 @@
 package algorithm.leetcode;
 
-import java.util.Arrays;
-
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 最长上升子序列
  * @date: 2018/08/22
  */
 public class Solution300 {
@@ -20,23 +18,24 @@ public class Solution300 {
             return 0;
         }
 
+        // dp[i]表示:以第i个位置结尾的最长上升子序列
         int[] dp = new int[nums.length];
         for (int i = 0; i < nums.length; ++i) {
-            int max = 1;
+            int mx = 1;
             for (int j = 0; j < i; ++j) {
                 if (nums[i] > nums[j]) {
-                    max = Math.max(max, dp[j] + 1);
+                    mx = Math.max(mx, dp[j] + 1);
                 }
             }
-            dp[i] = max;
+            dp[i] = mx;
         }
 
-        int max = dp[0];
+        int mx = dp[0];
         for (int i = 1; i < dp.length; ++i) {
-            if (max < dp[i]) {
-                max = dp[i];
+            if (mx < dp[i]) {
+                mx = dp[i];
             }
         }
-        return max;
+        return mx;
     }
 }
