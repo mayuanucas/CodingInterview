@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 不同路径
  * @date: 2018/08/22
  */
 public class Solution062 {
@@ -22,7 +22,7 @@ public class Solution062 {
         Arrays.fill(dp, 1);
         // 每行的第一列的位置(到达该位置也仅有1种走法)
         for (int i = 1; i < n; ++i) {
-            for (int j = 1; j < m; ++j) {
+            for (int j = 0; j < m; ++j) {
                 // 到达该位置的方法数为: 从上方走过来的走法数目 + 从左侧方向走过来的走法数目
                 dp[j] = dp[j] + dp[j - 1];
             }
