@@ -2,7 +2,7 @@ package algorithm.leetcode;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 最大子序和
  * @date: 2018/08/17
  */
 public class Solution053 {
@@ -18,16 +18,15 @@ public class Solution053 {
             return 0;
         }
 
+        // dp[i]代表以第i个位置结尾,最大子序和
         int[] dp = new int[nums.length];
         dp[0] = nums[0];
-        int maxSum = dp[0];
+        int ans = dp[0];
 
         for (int i = 1; i < nums.length; ++i) {
             dp[i] = Math.max(nums[i] + dp[i - 1], nums[i]);
-            if (dp[i] > maxSum) {
-                maxSum = dp[i];
-            }
+            ans = Math.max(ans, dp[i]);
         }
-        return maxSum;
+        return ans;
     }
 }

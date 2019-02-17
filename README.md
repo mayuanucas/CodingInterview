@@ -30,6 +30,7 @@
 | 047  | 回溯算法 | [全排列II](src/main/java/algorithm/leetcode/Solution047.java) | 中等 |
 | 051  | 回溯算法 | [N皇后](src/main/java/algorithm/leetcode/Solution051.java) | 困难 |
 | 052  | 回溯算法 | [N皇后 II](src/main/java/algorithm/leetcode/Solution052.java) | 困难 |
+| 053  | 数组、分治算法、动态规划 | [最大子序和](src/main/java/algorithm/leetcode/Solution053.java) | 中等 |
 | 055  | 贪心算法、数组 | [跳跃游戏](src/main/java/algorithm/leetcode/Solution055.java) | 中等 |
 | 056  | 排序、数组 | [合并区间](src/main/java/algorithm/leetcode/Solution056.java) | 中等 |
 | 057  | 排序、数组 | [插入区间](src/main/java/algorithm/leetcode/Solution057.java) | 困难 |
