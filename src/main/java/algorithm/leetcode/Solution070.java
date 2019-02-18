@@ -2,7 +2,7 @@ package algorithm.leetcode;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 爬楼梯
  * @date: 2018/08/17
  */
 public class Solution070 {
@@ -39,5 +39,25 @@ public class Solution070 {
             dp[i] = dp[i - 1] + dp[i - 2];
         }
         return dp[n];
+    }
+
+    /**
+     * 优化空间复杂度
+     *
+     * @param n
+     * @return
+     */
+    public int climbStairs2(int n) {
+        if (1 >= n) {
+            return 1;
+        }
+
+        int pre = 1, cur = 2;
+        for (int i = 3; i <= n; ++i) {
+            int tmp = pre + cur;
+            pre = cur;
+            cur = tmp;
+        }
+        return cur;
     }
 }
