@@ -2,7 +2,7 @@ package algorithm.leetcode;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 解码方法
  * @date: 2018/08/22
  */
 public class Solution091 {
