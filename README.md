@@ -40,6 +40,7 @@
 | 063  | 数组、动态规划 | [不同路径 II](src/main/java/algorithm/leetcode/Solution063.java) | 中等 |
 | 064  | 数组、动态规划 | [最小路径和](src/main/java/algorithm/leetcode/Solution064.java) | 中等 |
 | 070  | 动态规划 | [爬楼梯](src/main/java/algorithm/leetcode/Solution070.java) | 简单 |
+| 072  | 字符串、动态规划 | [编辑距离](src/main/java/algorithm/leetcode/Solution072.java) | 困难 |
 | 075  | 排序、数组、双指针 | [颜色分类](src/main/java/algorithm/leetcode/Solution075.java) | 中等 |
 | 077  | 回溯算法 | [组合](src/main/java/algorithm/leetcode/Solution077.java) | 中等 |
 | 078  | 位运算、数组、回溯算法 | [子集](src/main/java/algorithm/leetcode/Solution078.java) | 中等 |

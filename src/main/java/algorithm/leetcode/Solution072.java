@@ -2,7 +2,7 @@ package algorithm.leetcode;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 编辑距离
  * @date: 2018/08/24
  */
 public class Solution072 {
@@ -11,20 +11,22 @@ public class Solution072 {
             return 0;
         }
 
-        int lengthOfWord1 = word1.length();
-        int lengthOfWord2 = word2.length();
+        int len1 = word1.length();
+        int len2 = word2.length();
         // dp[i][j]表示: word1[0:i] 和 word2[0:j]的编辑距离
-        int[][] dp = new int[lengthOfWord1 + 1][lengthOfWord2 + 1];
+        int[][] dp = new int[len1 + 1][len2 + 1];
 
-        for (int i = 1; i <= lengthOfWord1; ++i) {
-            dp[i][0] = i;
-        }
-        for (int j = 1; j <= lengthOfWord2; ++j) {
+        // 初始化第一行
+        for (int j = 1; j <= len2; ++j) {
             dp[0][j] = j;
         }
+        // 初始化第一列
+        for (int i = 1; i <= len1; ++i) {
+            dp[i][0] = i;
+        }
 
-        for (int i = 1; i <= lengthOfWord1; ++i) {
-            for (int j = 1; j <= lengthOfWord2; ++j) {
+        for (int i = 1; i <= len1; ++i) {
+            for (int j = 1; j <= len2; ++j) {
                 // 当前位置字符相同,编辑距离等于上一位置的编辑距离
                 if (word1.charAt(i - 1) == word2.charAt(j - 1)) {
                     dp[i][j] = dp[i - 1][j - 1];
@@ -37,6 +39,6 @@ public class Solution072 {
                 }
             }
         }
-        return dp[lengthOfWord1][lengthOfWord2];
+        return dp[len1][len2];
     }
 }
