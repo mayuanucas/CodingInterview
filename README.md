@@ -53,6 +53,7 @@
 | 091  | 字符串、动态规划 | [解码方法](src/main/java/algorithm/leetcode/Solution091.java) | 中等 |
 | 093  | 字符串、回溯算法 | [复原IP地址](src/main/java/algorithm/leetcode/Solution093.java) | 中等 |
 | 096  | 树、动态规划 | [不同的二叉搜索树](src/main/java/algorithm/leetcode/Solution096.java) | 中等 |
+| 098  | 树、深度优先搜索 | [验证二叉搜索树](src/main/java/algorithm/leetcode/Solution098.java) | 中等 |
 | 121  | 数组、动态规划 | [买卖股票的最佳时机](src/main/java/algorithm/leetcode/Solution121.java) | 简单 |
 | 122  | 贪心算法、数组 | [买卖股票的最佳时机 II](src/main/java/algorithm/leetcode/Solution122.java) | 简单 |
 | 123  | 动态规划、数组 | [买卖股票的最佳时机 III](src/main/java/algorithm/leetcode/Solution122.java) | 困难 |
