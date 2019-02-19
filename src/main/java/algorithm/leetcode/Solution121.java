@@ -16,8 +16,9 @@ public class Solution121 {
         int bottom = prices[0];
         for (int i = 1; i < prices.length; ++i) {
             if (prices[i] >= bottom) {
-                profile = profile > prices[i] - bottom ? profile : prices[i] - bottom;
+                profile = Math.max(profile, prices[i] - bottom);
             } else {
+                // 出现新的底部
                 bottom = prices[i];
             }
         }
