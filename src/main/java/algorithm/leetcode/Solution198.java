@@ -2,7 +2,7 @@ package algorithm.leetcode;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 打家劫舍
  * @date: 2018/08/17
  */
 public class Solution198 {
@@ -34,14 +34,14 @@ public class Solution198 {
             return Math.max(nums[0], nums[1]);
         }
 
-        int[] dp = new int[nums.length];
-        dp[0] = nums[0];
-        dp[1] = Math.max(nums[0], nums[1]);
-        dp[2] = Math.max(nums[1], nums[0] + nums[2]);
-        for (int i = 3; i < nums.length; ++i) {
-            dp[i] = Math.max(dp[i - 2], dp[i - 3]) + nums[i];
+        int[] dp = new int[nums.length + 1];
+        dp[1] = nums[0];
+        dp[2] = Math.max(nums[0], nums[1]);
+        dp[3] = Math.max(nums[1], nums[0] + nums[2]);
+        for (int i = 4; i < nums.length; ++i) {
+            dp[i] = Math.max(dp[i - 2], dp[i - 3]) + nums[i - 1];
         }
         // 最后的两个房子,仅抢劫了其中一个,选择值最大的并返回结果.
-        return Math.max(dp[nums.length - 2], dp[nums.length - 1]);
+        return Math.max(dp[nums.length - 1], dp[nums.length]);
     }
 }
