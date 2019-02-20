@@ -2,7 +2,7 @@ package algorithm.leetcode;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 打家劫舍 II
  * @date: 2018/08/17
  */
 public class Solution213 {
@@ -33,8 +33,9 @@ public class Solution213 {
         int pre2 = 0;
         int pre1 = 0;
 
+        // 当前位置最大值从 max(前3,前2) 的位置转移过来,(不能取相邻元素)
         for (int i = first; i <= last; ++i) {
-            int current = Math.max(pre2, pre3) + nums[i];
+            int current = Math.max(pre3, pre2) + nums[i];
             pre3 = pre2;
             pre2 = pre1;
             pre1 = current;
