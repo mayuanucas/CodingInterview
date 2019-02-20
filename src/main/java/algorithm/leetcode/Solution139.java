@@ -4,7 +4,7 @@ import java.util.List;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 单词拆分
  * @date: 2018/08/23
  */
 public class Solution139 {
@@ -16,7 +16,7 @@ public class Solution139 {
         for (int i = 1; i <= n; ++i) {
             for (String word : wordDict) {
                 int len = word.length();
-                if (len <= i && word.equals(s.substring(i - len, i))) {
+                if (i >= len && word.equals(s.substring(i - len, i))) {
                     dp[i] = dp[i] || dp[i - len];
                 }
             }

@@ -64,6 +64,7 @@
 | 134  | 贪心算法 | [加油站](src/main/java/algorithm/leetcode/Solution134.java) | 中等 |
 | 136  | 位运算、哈希表 | [只出现一次的数字](src/main/java/algorithm/leetcode/Solution136.java) | 简单 |
 | 137  | 位运算 | [只出现一次的数字 II](src/main/java/algorithm/leetcode/Solution137.java) | 中等 |
+| 139  | 动态规划 | [单词拆分](src/main/java/algorithm/leetcode/Solution139.java) | 中等 |
 | 141  | 链表、双指针 | [环形链表](src/main/java/algorithm/leetcode/Solution141.java) | 简单 |
 | 142  | 链表、双指针 | [环形链表 II](src/main/java/algorithm/leetcode/Solution142.java) | 中等 |
 | 147  | 排序、链表 | [对链表进行插入排序](src/main/java/algorithm/leetcode/Solution147.java) | 中等 |
