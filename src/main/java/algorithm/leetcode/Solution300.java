@@ -18,6 +18,7 @@ public class Solution300 {
             return 0;
         }
 
+        int ans = Integer.MIN_VALUE;
         // dp[i]表示:以第i个位置结尾的最长上升子序列
         int[] dp = new int[nums.length];
         for (int i = 0; i < nums.length; ++i) {
@@ -28,14 +29,11 @@ public class Solution300 {
                 }
             }
             dp[i] = mx;
-        }
-
-        int mx = dp[0];
-        for (int i = 1; i < dp.length; ++i) {
-            if (mx < dp[i]) {
-                mx = dp[i];
+            if (dp[i] > ans) {
+                ans = dp[i];
             }
         }
-        return mx;
+
+        return ans;
     }
 }
