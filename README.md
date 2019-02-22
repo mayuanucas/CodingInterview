@@ -87,6 +87,7 @@
 | 242  | 排序、哈希表 | [有效的字母异位词](src/main/java/algorithm/leetcode/Solution242.java) | 简单 |
 | 260  | 位运算 | [只出现一次的数字 III](src/main/java/algorithm/leetcode/Solution260.java) | 中等 |
 | 274  | 排序、哈希表 | [H指数](src/main/java/algorithm/leetcode/Solution274.java) | 中等 |
+| 279  | 广度优先搜索、数学、动态规划 | [完全平方数](src/main/java/algorithm/leetcode/Solution279.java) | 中等 |
 | 283  | 数组、双指针 | [移动零](src/main/java/algorithm/leetcode/Solution283.java) | 简单 |
 | 287  | 数组、双指针、二分查找 | [寻找重复数](src/main/java/algorithm/leetcode/Solution287.java) | 中等 |
 | 300  | 二分查找、动态规划 | [最长上升子序列](src/main/java/algorithm/leetcode/Solution300.java) | 中等 |

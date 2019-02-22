@@ -7,11 +7,36 @@ import java.util.Queue;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 完全平方数
  * @date: 2018/08/21
  */
 public class Solution279 {
+
+    /**
+     * dp[4] = Min{ dp[4-1*1]+1, dp[4-2*2]+1 }
+     * dp[13] = Min{ dp[13-1*1]+1, dp[13-2*2]+1, dp[13-3*3]+1 }
+     * ...
+     * dp[n] = Min{ dp[n - i*i] + 1 },  n - i*i >=0 && i >= 1
+     *
+     * @param n
+     * @return
+     */
+
     public int numSquares(int n) {
+        int[] dp = new int[n + 1];
+        dp[0] = 0;
+
+        for (int i = 1; i <= n; ++i) {
+            int mn = Integer.MAX_VALUE;
+            for (int j = 1; i - j * j >= 0; ++j) {
+                mn = Math.min(mn, dp[i - j * j] + 1);
+            }
+            dp[i] = mn;
+        }
+        return dp[n];
+    }
+
+    public int numSquares2(int n) {
         List<Integer> squares = generateSquares(n);
         Queue<Integer> queue = new LinkedList<>();
         boolean[] marked = new boolean[n + 1];
