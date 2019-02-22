@@ -86,6 +86,7 @@
 | 236  | 树 | [二叉树的最近公共祖先](src/main/java/algorithm/leetcode/Solution236.java) | 中等 |
 | 242  | 排序、哈希表 | [有效的字母异位词](src/main/java/algorithm/leetcode/Solution242.java) | 简单 |
 | 260  | 位运算 | [只出现一次的数字 III](src/main/java/algorithm/leetcode/Solution260.java) | 中等 |
+| 264  | 堆、数学、动态规划 | [丑数 II](src/main/java/algorithm/leetcode/Solution264.java) | 中等 |
 | 274  | 排序、哈希表 | [H指数](src/main/java/algorithm/leetcode/Solution274.java) | 中等 |
 | 279  | 广度优先搜索、数学、动态规划 | [完全平方数](src/main/java/algorithm/leetcode/Solution279.java) | 中等 |
 | 283  | 数组、双指针 | [移动零](src/main/java/algorithm/leetcode/Solution283.java) | 简单 |
