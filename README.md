@@ -93,6 +93,7 @@
 | 287  | 数组、双指针、二分查找 | [寻找重复数](src/main/java/algorithm/leetcode/Solution287.java) | 中等 |
 | 300  | 二分查找、动态规划 | [最长上升子序列](src/main/java/algorithm/leetcode/Solution300.java) | 中等 |
 | 303  | 动态规划 | [区域和检索 - 数组不可变](src/main/java/algorithm/leetcode/Solution303.java) | 简单 |
+| 304  | 动态规划 | [二维区域和检索 - 矩阵不可变](src/main/java/algorithm/leetcode/Solution304.java) | 中等 |
 | 306  | 回溯算法 | [累加数](src/main/java/algorithm/leetcode/Solution306.java) | 中等 |
 | 324  | 排序 | [摆动排序 II](src/main/java/algorithm/leetcode/Solution324.java) | 中等 |
 | 344  | 字符串、双指针 | [反转字符串](src/main/java/algorithm/leetcode/Solution344.java) | 简单 |
