@@ -96,6 +96,7 @@
 | 304  | 动态规划 | [二维区域和检索 - 矩阵不可变](src/main/java/algorithm/leetcode/Solution304.java) | 中等 |
 | 306  | 回溯算法 | [累加数](src/main/java/algorithm/leetcode/Solution306.java) | 中等 |
 | 309  | 回溯算法 | [最佳买卖股票时机含冷冻期](src/main/java/algorithm/leetcode/Solution309.java) | 中等 |
+| 322  | 动态规划 | [零钱兑换](src/main/java/algorithm/leetcode/Solution322.java) | 中等 |
 | 324  | 排序 | [摆动排序 II](src/main/java/algorithm/leetcode/Solution324.java) | 中等 |
 | 344  | 字符串、双指针 | [反转字符串](src/main/java/algorithm/leetcode/Solution344.java) | 简单 |
 | 345  | 字符串、双指针 | [反转字符串中的元音字母](src/main/java/algorithm/leetcode/Solution345.java) | 简单 |
