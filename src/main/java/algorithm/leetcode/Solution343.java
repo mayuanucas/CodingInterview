@@ -2,7 +2,7 @@ package algorithm.leetcode;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 整数拆分
  * @date: 2018/08/22
  */
 public class Solution343 {
@@ -17,7 +17,7 @@ public class Solution343 {
         // 第 n 个位置表示:数字 n 分解后可获得的最大乘积
         int[] dp = new int[n + 1];
         for (int i = 1; i <= n; ++i) {
-            for (int j = 1; j <= i - 1; ++j) {
+            for (int j = 1; j < i; ++j) {
                 dp[i] = Math.max(dp[i], Math.max(j * dp[i - j], j * (i - j)));
             }
         }
