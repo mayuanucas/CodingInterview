@@ -110,6 +110,7 @@
 | 368  | 数学、动态规划 | [最大整除子集](src/main/java/algorithm/leetcode/Solution368.java) | 中等 |
 | 375  | 极小化极大、动态规划 | [猜数字大小 II](src/main/java/algorithm/leetcode/Solution375.java) | 中等 |
 | 376  | 动态规划、贪心算法 | [摆动序列](src/main/java/algorithm/leetcode/Solution376.java) | 中等 |
+| 377  | 动态规划 | [组合总和 Ⅳ](src/main/java/algorithm/leetcode/Solution377.java) | 中等 |
 | 392  | 动态规划、贪心算法、二分查找 | [判断子序列](src/main/java/algorithm/leetcode/Solution392.java) | 中等 |
 | 402  | 栈、贪心算法 | [移掉K位数字](src/main/java/algorithm/leetcode/Solution402.java) | 中等 |
 | 406  | 贪心算法 | [根据身高重建队列](src/main/java/algorithm/leetcode/Solution406.java) | 中等 |
