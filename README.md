@@ -116,6 +116,7 @@
 | 402  | 栈、贪心算法 | [移掉K位数字](src/main/java/algorithm/leetcode/Solution402.java) | 中等 |
 | 406  | 贪心算法 | [根据身高重建队列](src/main/java/algorithm/leetcode/Solution406.java) | 中等 |
 | 413  | 数学、动态规划 | [等差数列划分](src/main/java/algorithm/leetcode/Solution413.java) | 中等 |
+| 416  | 动态规划 | [分割等和子集](src/main/java/algorithm/leetcode/Solution416.java) | 中等 |
 | 435  | 贪心算法 | [无重叠区间](src/main/java/algorithm/leetcode/Solution435.java) | 中等 |
 | 452  | 贪心算法 | [用最少数量的箭引爆气球](src/main/java/algorithm/leetcode/Solution452.java) | 中等 |
 | 455  | 贪心算法 | [分发饼干](src/main/java/algorithm/leetcode/Solution455.java) | 简单 |
