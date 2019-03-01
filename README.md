@@ -121,6 +121,7 @@
 | 435  | 贪心算法 | [无重叠区间](src/main/java/algorithm/leetcode/Solution435.java) | 中等 |
 | 452  | 贪心算法 | [用最少数量的箭引爆气球](src/main/java/algorithm/leetcode/Solution452.java) | 中等 |
 | 455  | 贪心算法 | [分发饼干](src/main/java/algorithm/leetcode/Solution455.java) | 简单 |
+| 467  | 动态规划 | [环绕字符串中唯一的子字符串](src/main/java/algorithm/leetcode/Solution467.java) | 中等 |
 | 516  | 动态规划 | [最长回文子序列](src/main/java/algorithm/leetcode/Solution516.java) | 中等 |
 | 524  | 排序、双指针 | [通过删除字母匹配到字典里最长单词](src/main/java/algorithm/leetcode/Solution524.java) | 中等 |
 | 526  | 回溯算法 | [优美的排列](src/main/java/algorithm/leetcode/Solution526.java) | 中等 |
