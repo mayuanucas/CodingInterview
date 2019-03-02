@@ -125,6 +125,7 @@
 | 516  | 动态规划 | [最长回文子序列](src/main/java/algorithm/leetcode/Solution516.java) | 中等 |
 | 524  | 排序、双指针 | [通过删除字母匹配到字典里最长单词](src/main/java/algorithm/leetcode/Solution524.java) | 中等 |
 | 526  | 回溯算法 | [优美的排列](src/main/java/algorithm/leetcode/Solution526.java) | 中等 |
+| 530  | 二叉搜索树 | [二叉搜索树的最小绝对差](src/main/java/algorithm/leetcode/Solution530.java) | 简单 |
 | 532  | 排序、双指针 | [数组中的K-diff数对](src/main/java/algorithm/leetcode/Solution532.java) | 简单 |
 | 567  | 双指针 | [字符串的排列](src/main/java/algorithm/leetcode/Solution567.java) | 中等 |
 | 621  | 贪心算法、队列、数组 | [任务调度器](src/main/java/algorithm/leetcode/Solution621.java) | 中等 |
