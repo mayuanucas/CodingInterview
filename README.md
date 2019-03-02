@@ -159,6 +159,7 @@
 | 923  | 双指针 | [三数之和的多种可能](src/main/java/algorithm/leetcode/Solution923.java) | 中等 |
 | 925  | 双指针、字符串 | [长按键入](src/main/java/algorithm/leetcode/Solution925.java) | 简单 |
 | 930  | 双指针、哈希表 | [和相同的二元子数组](src/main/java/algorithm/leetcode/Solution930.java) | 中等 |
+| 938  | 二叉搜索树 | [二叉搜索树的范围和](src/main/java/algorithm/leetcode/Solution938.java) | 中等 |
 | 944  | 贪心算法 | [删列造序](src/main/java/algorithm/leetcode/Solution944.java) | 简单 |
 | 948  | 贪心算法 | [令牌放置](src/main/java/algorithm/leetcode/Solution948.java) | 中等 |
 | 955  | 贪心算法 | [删列造序 II](src/main/java/algorithm/leetcode/Solution955.java) | 中等 |
