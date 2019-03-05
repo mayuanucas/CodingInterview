@@ -2,7 +2,6 @@ package algorithm.leetcode;
 
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Stack;
 
 /**
  * @author: mayuan
@@ -13,6 +12,7 @@ public class Solution094 {
 
     /**
      * 非递归中序遍历二叉树
+     *
      * @param root
      * @return
      */
@@ -23,7 +23,7 @@ public class Solution094 {
             return ans;
         }
 
-        Stack<TreeNode> stack = new Stack<>();
+        LinkedList<TreeNode> stack = new LinkedList<>();
         TreeNode cur = root;
 
         while (null != cur || !stack.isEmpty()) {
