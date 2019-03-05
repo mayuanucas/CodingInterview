@@ -345,7 +345,7 @@
 | 背包问题 | [完全背包](src/main/java/algorithm/knapsack/Problem02.java) |
 | 背包问题 | [多重背包](src/main/java/algorithm/knapsack/Problem03.java) |
 | 背包问题 | [背包模板](src/main/java/algorithm/knapsack/Problem04.java) |
-| 二叉树 | [二叉树遍历递归与非递归](src/main/java/algorithm/note/TreeVisit.java) |
+| 二叉树 | [二叉树的递归与非递归遍历](src/main/java/algorithm/note/TreeVisit.java) |
 | 红黑树 | [红黑树](src/main/java/algorithm/note/RedBlackTree.md) |
 | 动态规划 | [最长公共子序列](src/main/java/algorithm/note/最长公共子序列.md) |
 
