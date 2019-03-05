@@ -52,6 +52,7 @@
 | 090  | 数组、回溯算法 | [子集II](src/main/java/algorithm/leetcode/Solution090.java) | 中等 |
 | 091  | 字符串、动态规划 | [解码方法](src/main/java/algorithm/leetcode/Solution091.java) | 中等 |
 | 093  | 字符串、回溯算法 | [复原IP地址](src/main/java/algorithm/leetcode/Solution093.java) | 中等 |
+| 094  | 栈、树、哈希表 | [二叉树的中序遍历](src/main/java/algorithm/leetcode/Solution094.java) | 中等 |
 | 095  | 树、动态规划 | [不同的二叉搜索树 II](src/main/java/algorithm/leetcode/Solution095.java) | 中等 |
 | 096  | 树、动态规划 | [不同的二叉搜索树](src/main/java/algorithm/leetcode/Solution096.java) | 中等 |
 | 098  | 树、深度优先搜索 | [验证二叉搜索树](src/main/java/algorithm/leetcode/Solution098.java) | 中等 |
