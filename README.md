@@ -345,7 +345,7 @@
 | 栈 | [双栈算术表达式求值](src/main/java/algorithm/alg4/Solution005.java) |
 | 字符串 | [将字符串转换为数字](src/main/java/algorithm/note/StrToNumber.java) |
 | 字符串 | [kmp算法实现](src/main/java/algorithm/note/KMP.java) |
-| LRU算法 | [LRU算法](src/main/java/algorithm/note/StrToNumber.java) |
+| LRU算法 | [LRU算法](src/main/java/algorithm/note/LRU.java) |
 | 排序 | [常见排序算法](src/main/java/algorithm/note/MySort.java) |
 | TOP-K问题 | [TOP-K问题](src/main/java/algorithm/note/TopK.java) |
 | 背包问题 | [01背包](src/main/java/algorithm/knapsack/Problem01.java) |

@@ -11,8 +11,9 @@ import java.util.Map;
 public class LRU<K, V> {
 
     private static final float loadFactor = 0.75F;
-    private LinkedHashMap<K, V> map;
     private final int capacity;
+
+    private LinkedHashMap<K, V> map;
 
     public LRU(int size) {
         this.capacity = size;
