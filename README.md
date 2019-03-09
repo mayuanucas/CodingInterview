@@ -82,6 +82,7 @@
 | 139  | 动态规划 | [单词拆分](src/main/java/algorithm/leetcode/Solution139.java) | 中等 |
 | 141  | 链表、双指针 | [环形链表](src/main/java/algorithm/leetcode/Solution141.java) | 简单 |
 | 142  | 链表、双指针 | [环形链表 II](src/main/java/algorithm/leetcode/Solution142.java) | 中等 |
+| 144  | 栈、树 | [二叉树的前序遍历](src/main/java/algorithm/leetcode/Solution144.java) | 中等 |
 | 147  | 排序、链表 | [对链表进行插入排序](src/main/java/algorithm/leetcode/Solution147.java) | 中等 |
 | 148  | 排序、链表 | [排序链表](src/main/java/algorithm/leetcode/Solution148.java) | 中等 |
 | 152  | 数组、动态规划 | [乘积最大子序列](src/main/java/algorithm/leetcode/Solution152.java) | 中等 |

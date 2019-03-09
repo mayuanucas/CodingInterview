@@ -1,41 +1,45 @@
 package algorithm.leetcode;
 
+import java.util.LinkedList;
+import java.util.List;
+
 /**
  * @author: mayuan
- * @desc:
- * @date: 2018/08/17
+ * @desc: 二叉树的前序遍历
+ * @date: 2019/03/09
  */
 public class Solution144 {
-    public static void main(String[] args) {
-
-    }
-
-    public boolean hasCycle(ListNode head) {
-        if (null == head) {
-            return false;
+    public List<Integer> preorderTraversal(TreeNode root) {
+        List<Integer> ans = new LinkedList<>();
+        if (null == root) {
+            return ans;
         }
 
-        ListNode slow = head;
-        ListNode fast = head.next;
+        LinkedList<TreeNode> stack = new LinkedList<>();
+        stack.push(root);
 
-        while (null != fast && null != fast.next && null != slow) {
-            if (slow == fast) {
-                return true;
+        while (!stack.isEmpty()) {
+            TreeNode cur = stack.pop();
+            ans.add(cur.val);
+
+            if (null != cur.right) {
+                stack.push(cur.right);
             }
-
-            slow = slow.next;
-            fast = fast.next.next;
+            if (null != cur.left) {
+                stack.push(cur.left);
+            }
         }
-        return false;
+
+        return ans;
     }
 
-    class ListNode {
+    public class TreeNode {
         int val;
-        ListNode next;
+        TreeNode left;
+        TreeNode right;
 
-        ListNode(int x) {
+        TreeNode(int x) {
             val = x;
-            next = null;
         }
     }
 }
