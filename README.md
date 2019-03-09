@@ -67,6 +67,7 @@
 | 108  | 树、深度优先搜索 | [将有序数组转换为二叉搜索树](src/main/java/algorithm/leetcode/Solution108.java) | 简单 |
 | 110  | 树、深度优先搜索 | [平衡二叉树](src/main/java/algorithm/leetcode/Solution110.java) | 简单 |
 | 111  | 树、广度优先搜索、深度优先搜索 | [二叉树的最小深度](src/main/java/algorithm/leetcode/Solution111.java) | 简单 |
+| 112  | 树、深度优先搜索 | [路径总和](src/main/java/algorithm/leetcode/Solution112.java) | 简单 |
 | 120  | 数组、动态规划 | [三角形最小路径和](src/main/java/algorithm/leetcode/Solution120.java) | 中等 |
 | 121  | 数组、动态规划 | [买卖股票的最佳时机](src/main/java/algorithm/leetcode/Solution121.java) | 简单 |
 | 122  | 贪心算法、数组 | [买卖股票的最佳时机 II](src/main/java/algorithm/leetcode/Solution122.java) | 简单 |
