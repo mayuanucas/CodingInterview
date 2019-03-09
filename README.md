@@ -75,6 +75,7 @@
 | 122  | 贪心算法、数组 | [买卖股票的最佳时机 II](src/main/java/algorithm/leetcode/Solution122.java) | 简单 |
 | 123  | 动态规划、数组 | [买卖股票的最佳时机 III](src/main/java/algorithm/leetcode/Solution122.java) | 困难 |
 | 125  | 字符串、双指针 | [验证回文串](src/main/java/algorithm/leetcode/Solution125.java) | 简单 |
+| 129  | 树、深度优先搜索 | [求根到叶子节点数字之和](src/main/java/algorithm/leetcode/Solution129.java) | 中等 |
 | 131  | 回溯算法 | [分割回文串](src/main/java/algorithm/leetcode/Solution131.java) | 中等 |
 | 134  | 贪心算法 | [加油站](src/main/java/algorithm/leetcode/Solution134.java) | 中等 |
 | 136  | 位运算、哈希表 | [只出现一次的数字](src/main/java/algorithm/leetcode/Solution136.java) | 简单 |
