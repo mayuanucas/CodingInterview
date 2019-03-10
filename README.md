@@ -130,6 +130,7 @@
 | 377  | 动态规划 | [组合总和 Ⅳ](src/main/java/algorithm/leetcode/Solution377.java) | 中等 |
 | 392  | 动态规划、贪心算法、二分查找 | [判断子序列](src/main/java/algorithm/leetcode/Solution392.java) | 中等 |
 | 402  | 栈、贪心算法 | [移掉K位数字](src/main/java/algorithm/leetcode/Solution402.java) | 中等 |
+| 404  | 树 | [左叶子之和](src/main/java/algorithm/leetcode/Solution404.java) | 简单 |
 | 406  | 贪心算法 | [根据身高重建队列](src/main/java/algorithm/leetcode/Solution406.java) | 中等 |
 | 413  | 数学、动态规划 | [等差数列划分](src/main/java/algorithm/leetcode/Solution413.java) | 中等 |
 | 416  | 动态规划 | [分割等和子集](src/main/java/algorithm/leetcode/Solution416.java) | 中等 |
