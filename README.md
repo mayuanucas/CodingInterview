@@ -142,6 +142,7 @@
 | 526  | 回溯算法 | [优美的排列](src/main/java/algorithm/leetcode/Solution526.java) | 中等 |
 | 530  | 二叉搜索树 | [二叉搜索树的最小绝对差](src/main/java/algorithm/leetcode/Solution530.java) | 简单 |
 | 532  | 排序、双指针 | [数组中的K-diff数对](src/main/java/algorithm/leetcode/Solution532.java) | 简单 |
+| 559  | 树、深度优先搜索、广度优先搜索 | [N叉树的最大深度](src/main/java/algorithm/leetcode/Solution559.java) | 简单 |
 | 567  | 双指针 | [字符串的排列](src/main/java/algorithm/leetcode/Solution567.java) | 中等 |
 | 621  | 贪心算法、队列、数组 | [任务调度器](src/main/java/algorithm/leetcode/Solution621.java) | 中等 |
 | 649  | 贪心算法 | [Dota2 参议院](src/main/java/algorithm/leetcode/Solution649.java) | 中等 |
