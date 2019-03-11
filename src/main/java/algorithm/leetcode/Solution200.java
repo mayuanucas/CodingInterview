@@ -2,7 +2,7 @@ package algorithm.leetcode;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 岛屿的个数
  * @date: 2018/08/15
  */
 public class Solution200 {
@@ -18,6 +18,13 @@ public class Solution200 {
         System.out.println(test.numIslands(grid));
     }
 
+    /**
+     * 上帝之手: 点击一个格子(陆地)即可让相连在一块的陆地全部变为海洋,则需要点几次可以把全部区域变为海洋?
+     * 结果即代表:有几块陆地.
+     *
+     * @param grid
+     * @return
+     */
     public int numIslands(char[][] grid) {
         if (null == grid || 0 >= grid.length) {
             return 0;
