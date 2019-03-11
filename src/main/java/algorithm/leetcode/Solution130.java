@@ -2,7 +2,7 @@ package algorithm.leetcode;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 被围绕的区域
  * @date: 2018/08/15
  */
 public class Solution130 {
@@ -26,6 +26,12 @@ public class Solution130 {
         }
     }
 
+    /**
+     * 转换思路,从边界开始.标记从边界 'O' 开始,连在一起的区域.
+     * 再遍历每个格子,把没有标记的 'O' 替换为要求的记号,并把上一阶段的标记还原.
+     *
+     * @param board
+     */
     public void solve(char[][] board) {
         if (null == board || 0 >= board.length) {
             return;
