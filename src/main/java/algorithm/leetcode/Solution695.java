@@ -2,7 +2,7 @@ package algorithm.leetcode;
 
 /**
  * @author: mayuan
- * @desc:
+ * @desc: 岛屿的最大面积
  * @date: 2018/08/15
  */
 public class Solution695 {
@@ -41,9 +41,9 @@ public class Solution695 {
             return 0;
         }
 
+        // 标记当前节点为0,表示已经搜索过该区域
         grid[x][y] = 0;
-        int area = 1;
-        area = area + dfs(grid, x, y + 1) + dfs(grid, x + 1, y) + dfs(grid, x, y - 1) + dfs(grid, x - 1, y);
-        return area;
+
+        return 1 + dfs(grid, x, y + 1) + dfs(grid, x + 1, y) + dfs(grid, x, y - 1) + dfs(grid, x - 1, y);
     }
 }
