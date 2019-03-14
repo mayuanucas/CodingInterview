@@ -251,7 +251,7 @@ public class MySort {
         for (int i = nums.length - 1; i > 0; --i) {
             // 交换a[0]和a[i]。交换后，a[i]是a[0...i]中最大的
             swap(nums, 0, i);
-            // 调整a[0...i-1]，使得a[0...i-1]仍然是一个最大堆,即:保证a[i-1]是a[0...i-1]中的最大值
+            // 调整a[0...i-1]，使得a[0...i-1]仍然是一个最大堆,即:保证a[0]是a[0...i-1]中的最大值
             maxHeapDown(nums, 0, i - 1);
         }
     }
