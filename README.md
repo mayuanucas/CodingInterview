@@ -135,6 +135,7 @@
 | 376  | 动态规划、贪心算法 | [摆动序列](src/main/java/algorithm/leetcode/Solution376.java) | 中等 |
 | 377  | 动态规划 | [组合总和 Ⅳ](src/main/java/algorithm/leetcode/Solution377.java) | 中等 |
 | 392  | 动态规划、贪心算法、二分查找 | [判断子序列](src/main/java/algorithm/leetcode/Solution392.java) | 中等 |
+| 394  | 栈、深度优先搜索 | [字符串解码](src/main/java/algorithm/leetcode/Solution394.java) | 中等 |
 | 402  | 栈、贪心算法 | [移掉K位数字](src/main/java/algorithm/leetcode/Solution402.java) | 中等 |
 | 404  | 树 | [左叶子之和](src/main/java/algorithm/leetcode/Solution404.java) | 简单 |
 | 406  | 贪心算法 | [根据身高重建队列](src/main/java/algorithm/leetcode/Solution406.java) | 中等 |
@@ -145,6 +146,7 @@
 | 452  | 贪心算法 | [用最少数量的箭引爆气球](src/main/java/algorithm/leetcode/Solution452.java) | 中等 |
 | 455  | 贪心算法 | [分发饼干](src/main/java/algorithm/leetcode/Solution455.java) | 简单 |
 | 467  | 动态规划 | [环绕字符串中唯一的子字符串](src/main/java/algorithm/leetcode/Solution467.java) | 中等 |
+| 513  | 树、深度优先搜索、广度优先搜索 | [找树左下角的值](src/main/java/algorithm/leetcode/Solution513.java) | 中等 |
 | 516  | 动态规划 | [最长回文子序列](src/main/java/algorithm/leetcode/Solution516.java) | 中等 |
 | 524  | 排序、双指针 | [通过删除字母匹配到字典里最长单词](src/main/java/algorithm/leetcode/Solution524.java) | 中等 |
 | 526  | 回溯算法 | [优美的排列](src/main/java/algorithm/leetcode/Solution526.java) | 中等 |
