@@ -146,6 +146,7 @@
 | 452  | 贪心算法 | [用最少数量的箭引爆气球](src/main/java/algorithm/leetcode/Solution452.java) | 中等 |
 | 455  | 贪心算法 | [分发饼干](src/main/java/algorithm/leetcode/Solution455.java) | 简单 |
 | 467  | 动态规划 | [环绕字符串中唯一的子字符串](src/main/java/algorithm/leetcode/Solution467.java) | 中等 |
+| 491  | 深度优先搜索 | [递增子序列](src/main/java/algorithm/leetcode/Solution491.java) | 中等 |
 | 513  | 树、深度优先搜索、广度优先搜索 | [找树左下角的值](src/main/java/algorithm/leetcode/Solution513.java) | 中等 |
 | 516  | 动态规划 | [最长回文子序列](src/main/java/algorithm/leetcode/Solution516.java) | 中等 |
 | 524  | 排序、双指针 | [通过删除字母匹配到字典里最长单词](src/main/java/algorithm/leetcode/Solution524.java) | 中等 |
