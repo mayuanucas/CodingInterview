@@ -15,7 +15,9 @@ public class Solution357 {
 
         for (int i = 3, num = 8; i < f.length; ++i) {
             f[i] = f[i - 1] * num;
-            --num;
+            if (1 < num) {
+                --num;
+            }
         }
         for (int i = 2; i < f.length; ++i) {
             f[i] += f[i - 1];
